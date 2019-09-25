@@ -30,6 +30,9 @@ For paper:
    * MuDNN: <https://github.com/microsoft/MMdnn>
       * MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML.
 
+   * AIF360: <https://github.com/IBM/AIF360>, <http://aif360.mybluemix.net/>
+      * A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models. 
+
 <a name="papers"></a>
 ## Papers
 1. TODO
