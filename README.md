@@ -46,27 +46,23 @@ For paper:
       * Mahdi Nejadgholi, Jinqiu Yang
       * ASE'19
 
-   * An Empirical Study towards Characterizing Deep Learning Development and Deployment across Different Frameworks and Platforms
+   * An Empirical Study towards Characterizing Deep Learning Development and Deployment across Different Frameworks and Platforms <https://arxiv.org/abs/1909.06727>
       * Qianyu Guo, Sen Chen, Xiaofei Xie, Lei Ma, Qiang Hu, Hongtao Liu, Yang Liu, Jianjun Zhao, Li Xiaohong
       * ASE'19
       
-   * Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models
+   * Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models <http://www.cs.cityu.edu.hk/~wkchan/papers/ase2019-zhang+chan.pdf>
       * Hao Zhang, Wing-Kwong Chan
       * ASE'19
       
-   * AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation
+   * AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation <https://bdqnghi.github.io/files/ASE_2019_NIER.pdf>
       * Nghi Duy Quoc Bui, Yijun Yu, Lingxiao Jiang
        * ASE'19
 
-   * Automating CUDA Synchronization via Program Transformation
+   * Automating CUDA Synchronization via Program Transformation <http://www.shinhwei.com/cuda-repair.pdf>
       * Mingyuan Wu, Lingming Zhang, Cong Liu, Shin Hwei Tan, Yuqun Zhang
       * ASE'19
       
-   * Automating Non-Blocking Synchronization In Concurrent Data Abstractions
-      * Jiange Zhang, Qing Yi, Damian Dechev
-      * ASE'19
-      
-   * Property Inference for Deep Neural Networks
+   * Property Inference for Deep Neural Networks <https://arxiv.org/abs/1904.13215>
       * Divya Gopinath, Hayes Converse, Corina S. Pasareanu, Ankur Taly
       * ASE'19
       
