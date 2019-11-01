@@ -21,9 +21,11 @@ For tools:
 
 For paper:
 
-   * Paper Name: <URL_to_project>
+   * Paper Name: <URL_to_paper>
       * Author(s) Name(s)
-      * A short description"
+      * Conference/Journal name
+      * A short description
+      
 
 <a name="tools"></a>
 ## Tools
@@ -40,8 +42,38 @@ For paper:
 
 <a name="papers"></a>
 ## Papers
-1. TODO
+   * A Study of Oracle Approximations in Testing Deep Learning Libraries
+      * Mahdi Nejadgholi, Jinqiu Yang
+      * ASE'19
 
+   * An Empirical Study towards Characterizing Deep Learning Development and Deployment across Different Frameworks and Platforms
+      * Qianyu Guo, Sen Chen, Xiaofei Xie, Lei Ma, Qiang Hu, Hongtao Liu, Yang Liu, Jianjun Zhao, Li Xiaohong
+      * ASE'19
+      
+   * Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models
+      * Hao Zhang, Wing-Kwong Chan
+      * ASE'19
+      
+   * AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation
+      * Nghi Duy Quoc Bui, Yijun Yu, Lingxiao Jiang
+       * ASE'19
+
+   * Automating CUDA Synchronization via Program Transformation
+      * Mingyuan Wu, Lingming Zhang, Cong Liu, Shin Hwei Tan, Yuqun Zhang
+      * ASE'19
+      
+   * Automating Non-Blocking Synchronization In Concurrent Data Abstractions
+      * Jiange Zhang, Qing Yi, Damian Dechev
+      * ASE'19
+      
+   * Property Inference for Deep Neural Networks
+      * Divya Gopinath, Hayes Converse, Corina S. Pasareanu, Ankur Taly
+      * ASE'19
+      
+   * Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning
+      * Yan Zheng, Xiaofei Xie, Ting Su, Lei Ma, Jianye Hao, Zhaopeng Meng, Yang Liu, Ruimin Shen, Yinfeng Chen, Changjie Fan
+      * ASE'19
+      
 <a name="talks"></a>
 ## Talks
 1. TODO
