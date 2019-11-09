@@ -1,9 +1,67 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Title</title>
-	</head>
-	<body>
-	Hello
-	</body>
+<html xmlns:v-bind="http://www.w3.org/2001/XMLSchema">
+<head>
+    <title>Deep Learning Testing</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/components/list.js"></script>
+    <script src="js/components/entry.js"></script>
+    <script src="js/components/filter.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="container">
+        <h2 class="mt-5">Paper List: </h2>
+        <filter-component class="mt-3" v-bind:tags='tags' v-on:tags="onChangeTags" v-on:keywords="onChangeKeywords"
+                          v-on:sortedby="onChangeSortedBy"></filter-component>
+        <list class="mt-3" v-bind:entry-list='paperList' v-bind:tags="checkedTags" v-bind:keywords="keywords"
+              v-bind:sortedby="sortedBy"></list>
+    </div>
+</div>
+
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            paperList: [],
+            tags: [],
+            checkedTags: [],
+            keywords: [],
+            sortedBy: "title",
+        },
+        created: function () {
+            let vue = this;
+            $.getJSON("data/paper_list.json", function (data) {
+                vue.paperList = data;
+                data.forEach(function (entry) {
+                    entry.tags.forEach(function (tag) {
+                        if (!this.tags.includes(tag)) {
+                            this.tags.push(tag);
+                        }
+                    }, this);
+                }, vue);
+                vue.tags.sort();
+            });
+        },
+        methods: {
+            onChangeTags: function (tags) {
+                this.checkedTags = tags;
+            },
+            onChangeKeywords: function (kws) {
+                this.keywords = kws;
+            },
+            onChangeSortedBy: function (column) {
+                this.sortedBy = column;
+            }
+        }
+    });
+
+    $(function () {
+
+    })
+
+</script>
+</body>
 </html>

@@ -1,0 +1,116 @@
+[
+  {
+    "title": "B Study of Oracle Approximations in Testing Deep Learning Libraries",
+    "link": "",
+    "authors": [
+      "Mahdi Nejadgholi",
+      "Jinqiu Yang"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "An Empirical Study towards Characterizing Deep Learning Development and Deployment across Different Frameworks and Platforms",
+    "link": "https://arxiv.org/abs/1909.06727",
+    "authors": [
+      "Qianyu Guo",
+      "Sen Chen",
+      "Xiaofei Xie",
+      "Lei Ma",
+      "Qiang Hu",
+      "Hongtao Liu",
+      "Yang Liu",
+      "Jianjun Zhao",
+      "Li Xiaohong"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models",
+    "link": "http://www.cs.cityu.edu.hk/~wkchan/papers/ase2019-zhang+chan.pdf",
+    "authors": [
+      "Hao Zhang",
+      "Wing-Kwong Chan"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation",
+    "link": "https://bdqnghi.github.io/files/ASE_2019_NIER.pdf",
+    "authors": [
+      "Nghi Duy Quoc Bui",
+      "Yijun Yu",
+      "Lingxiao Jiang"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "Automating CUDA Synchronization via Program Transformation",
+    "link": "http://www.shinhwei.com/cuda-repair.pdf",
+    "authors": [
+      "Mingyuan Wu",
+      "Lingming Zhang",
+      "Cong Liu",
+      "Shin Hwei Tan",
+      "Yuqun Zhang"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "Property Inference for Deep Neural Networks",
+    "link": "https://arxiv.org/abs/1904.13215",
+    "authors": [
+      "Divya Gopinath",
+      "Hayes Converse",
+      "Corina S. Pasareanu",
+      "Ankur Taly",
+      "Yuqun Zhang"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning",
+    "link": "",
+    "authors": [
+      "Yan Zheng",
+      "Xiaofei Xie",
+      "Ting Su",
+      "Lei Ma",
+      "Jianye Hao",
+      "Zhaopeng Meng",
+      "Yang Liu",
+      "Ruimin Shen",
+      "Yinfeng Chen",
+      "Changjie Fan"
+    ],
+    "venue": "ASE'19",
+    "tags": [
+    ]
+  },
+  {
+    "title": "ABS: Scanning Neural Networks for Back-doors by Artificial Brain Stimulation",
+    "link": "https://www.cs.rutgers.edu/~sm2283/papers/CCS19.pdf",
+    "authors": [
+      "Yingqi Liu",
+      "Wen-Chuan Lee",
+      "Guanhong Tao",
+      "Shiqing Ma",
+      "Yousra Aafer",
+      "Xiangyu Zhang"
+    ],
+    "venue": "CCS'19",
+    "tags": [
+    ]
+  }
+]

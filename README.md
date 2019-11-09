@@ -42,7 +42,8 @@ For paper:
 
 <a name="papers"></a>
 ## Papers
-
+   See [Paper List](http://www.victortian.com/awesome-ml-testing/).
+<!--
    * A Study of Oracle Approximations in Testing Deep Learning Libraries
       * Mahdi Nejadgholi, Jinqiu Yang
       * ASE'19
@@ -74,6 +75,7 @@ For paper:
    * ABS: Scanning Neural Networks for Back-doors by Artificial Brain Stimulation <https://www.cs.rutgers.edu/~sm2283/papers/CCS19.pdf>
       * Yingqi Liu, Wen-Chuan Lee, Guanhong Tao, Shiqing Ma, Yousra Aafer, Xiangyu Zhang
       * CCS'19
+-->
 <a name="talks"></a>
 ## Talks
 1. TODO
