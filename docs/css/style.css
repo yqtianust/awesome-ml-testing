@@ -1,0 +1,30 @@
+a {
+    color: #00bacb;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+.btn-castle {
+    color: #fff;
+    background-color: #00bacb;
+    border-color: #00bacb;
+}
+
+.btn-castle:hover {
+    color: #fff;
+    background-color: #16a8b6;
+    border-color: #16a8b6;
+}
+
+.btn-outline-castle {
+    color: #00bacb;
+    border-color: #00bacb;
+}
+
+.btn-outline-castle:hover {
+    color: #fff;
+    background-color: #27c7d6;
+    border-color: #27c7d6;
+}
