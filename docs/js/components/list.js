@@ -8,6 +8,7 @@ Vue.component('list', {
         'tags', //array
         'entryList', // all entries
         'sortedby',
+        'reverse',
     ],
     created: function () {
         this.loadList();
@@ -66,14 +67,27 @@ Vue.component('list', {
                 this.visibleList = Array.from(tmp);
             }
 
+            let vue = this;
             let sortedBy = this.sortedby;
             this.visibleList.sort(((a, b) => {
                 if (sortedBy === 'title') {
-                    return a.title < b.title ? -1 : 1;
+                    if (vue.reverse) {
+                        return a.title > b.title ? -1 : 1;
+                    } else {
+                        return a.title < b.title ? -1 : 1;
+                    }
                 } else if (sortedBy === 'conference') {
-                    return a.venue < b.venue ? -1 : 1;
+                    if (vue.reverse) {
+                        return a.venue > b.venue ? -1 : 1;
+                    } else {
+                        return a.venue < b.venue ? -1 : 1;
+                    }
                 } else if (sortedBy === 'author') {
-                    return a.authors.join(' ') < b.authors.join(' ') ? -1 : 1;
+                    if (vue.reverse) {
+                        return a.authors.join(' ') > b.authors.join(' ') ? -1 : 1;
+                    }else {
+                        return a.authors.join(' ') < b.authors.join(' ') ? -1 : 1;
+                    }
                 }
             }));
         },
@@ -91,6 +105,9 @@ Vue.component('list', {
             this.loadList();
         },
         sortedby: function (val) {
+            this.loadList();
+        },
+        reverse: function (val) {
             this.loadList();
         }
     },

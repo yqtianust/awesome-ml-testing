@@ -7,6 +7,7 @@ Vue.component('filter-component', {
             "sortedBy": "title",
             "checkedTags": [],
             "searchPayload": "",
+            "reverse": false,
         }
     },
     methods: {
@@ -44,6 +45,9 @@ Vue.component('filter-component', {
                 this.$emit("keywords", kws);
                 // console.log(kws)
             }
+        },
+        reverse: function (val) {
+            this.$emit("reverse", val);
         }
     },
     template: `
@@ -72,6 +76,10 @@ Vue.component('filter-component', {
         <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'title'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('title')">Title</button>
         <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'conference'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('conference')">Conference</button>
         <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'author'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('author')">Author</button>
+    </div>
+    <div class="ml-3 form-check-inline align-middle">
+        <input type="checkbox" class="form-check-input" v-model="reverse" id="reverse">
+        <label class="form-check-label" for="reverse">reverse order</label>
     </div>
 </form>
     `
