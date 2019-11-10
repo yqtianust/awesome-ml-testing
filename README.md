@@ -14,7 +14,7 @@ This repo will be updated continuously, don't hesitate to add new Pull Request o
 ---
 <a name="format"></a>
 ## Format 
-This Repo will use folloing format:
+This repo use a specific format. When you open a new issues, you will find the template. 
 
 For tools:
 
