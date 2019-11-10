@@ -18,5 +18,3 @@ gen
 docs/_book
 
 test/
-
-!/docs/index.html
