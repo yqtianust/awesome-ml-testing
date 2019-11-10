@@ -3,7 +3,7 @@ Awesome material(papers, tools, etc.) about testing machine learning system, inc
 
 This repo will be updated continuously, don't hesitate to add new Pull Request or Issues if you find anything is missing! Please use the format [here](#format).
 
-**Web page for paper list in [ONLINE](http://github.com/yqtianust/awesome-ml-testing)** Thanks to @Troublor. 
+**Web page for paper list in [ONLINE](https://yqtianust.github.io/awesome-ml-testing)** Thanks to [@Troublor](https://github.com/Troublor). 
 
 ## Table of Contents):
    * [Tools](#tools)
@@ -44,7 +44,7 @@ For paper:
 
 <a name="papers"></a>
 ## Papers
-   See [Paper List](http://www.victortian.com/awesome-ml-testing/).
+   See [Paper List](http://www.victortian.com/awesome-ml-testing/). Thanks to [@Troublor](https://github.com/Troublor)
 <!--
    * A Study of Oracle Approximations in Testing Deep Learning Libraries
       * Mahdi Nejadgholi, Jinqiu Yang
