@@ -73,9 +73,9 @@ Vue.component('filter-component', {
     <br/>
     <div class="d-inline mr-3">Sorted by: </div>
     <div class="btn-group" role="group" aria-label="sortBy">
-        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'title'? 'btn-castle' : 'btn-outline-castle']" v-on:click="changeSortedBy('title')">Title</button>
-        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'conference'? 'btn-castle' : 'btn-outline-castle']" v-on:click="changeSortedBy('conference')">Conference</button>
-        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'author'? 'btn-castle' : 'btn-outline-castle']" v-on:click="changeSortedBy('author')">Author</button>
+        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'title'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('title')">Title</button>
+        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'conference'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('conference')">Conference</button>
+        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'author'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('author')">Author</button>
     </div>
     <div class="ml-3 form-check-inline align-middle">
         <input type="checkbox" class="form-check-input" v-model="reverse" id="reverse">
