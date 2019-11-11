@@ -7,7 +7,7 @@
       "Jinqiu Yang"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": ["dl_lib", "oracle approximation"
     ]
   },
   {
@@ -25,7 +25,7 @@
       "Li Xiaohong"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": ["empirical study", "program bug", "tensorflow"
     ]
   },
   {
@@ -36,7 +36,7 @@
       "Wing-Kwong Chan"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": ["repair", "model bug"
     ]
   },
   {
@@ -48,7 +48,7 @@
       "Lingxiao Jiang"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": ["interpreting", "attention"
     ]
   },
   {
@@ -62,7 +62,7 @@
       "Yuqun Zhang"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": ["cuda", "synchronization"
     ]
   },
   {
@@ -76,7 +76,7 @@
       "Yuqun Zhang"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": [ "property inference"
     ]
   },
   {
@@ -95,7 +95,7 @@
       "Changjie Fan"
     ],
     "venue": "ASE'19",
-    "tags": [
+    "tags": ["game"
     ]
   },
   {
