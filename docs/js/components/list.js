@@ -118,7 +118,7 @@ Vue.component('list', {
             <template v-if="!empty">
                 <tr v-for="(entry, index) in visibleList">
                     <td>
-                        <entry v-bind:title="entry.title" v-bind:link="entry.link" v-bind:authors="entry.authors.join(', ')" v-bind:venue="entry.venue"></entry>
+                        <entry v-bind:keywords="kws" v-bind:title="entry.title" v-bind:link="entry.link" v-bind:authors="entry.authors.join(', ')" v-bind:venue="entry.venue"></entry>
                     </td>
                 </tr>
             </template>
