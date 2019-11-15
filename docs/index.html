@@ -1,17 +1,39 @@
 <!DOCTYPE html>
-<html xmlns:v-bind="http://www.w3.org/2001/XMLSchema">
+<html xmlns:v-bind="http://www.w3.org/2001/XMLSchema" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
-<!--    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png"/>-->
+    <!--    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png"/>-->
     <title>DL Testing</title>
     <link href="css/bootstrap.css" rel="stylesheet"/>
-<!--    <link href="css/nav.css" rel="stylesheet"/>-->
-<!--    <link href="css/style.css" rel="stylesheet"/>-->
+    <!--    <link href="css/nav.css" rel="stylesheet"/>-->
+    <!--    <link href="css/style.css" rel="stylesheet"/>-->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/0cba635a81.js" crossorigin="anonymous"></script>
     <script src="js/vue.min.js"></script>
     <script src="js/components/list.js"></script>
     <script src="js/components/entry.js"></script>
     <script src="js/components/filter.js"></script>
+    <style>
+        .up-helper {
+            height: 2em;
+            width: 2em;
+            border-radius: 0.5em;
+            position: fixed;
+            right: 2em;
+            bottom: 2em;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid dodgerblue;
+            color: dodgerblue;
+        }
+
+        .up-helper:hover {
+            cursor: pointer;
+            background-color: dodgerblue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <!--<div class="header">-->
@@ -31,7 +53,11 @@
         <list class="mt-3" v-bind:entry-list='paperList' v-bind:tags="checkedTags" v-bind:keywords="keywords"
               v-bind:sortedby="sortedBy" v-bind:reverse="reverse"></list>
     </div>
+    <div class="up-helper" v-on:click="goToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
 </div>
+
 <!--<div class="footer">-->
 <!--    <div class="container">-->
 <!--        <div class="footer-text">-->
@@ -77,12 +103,21 @@
             },
             onReverse: function (reverse) {
                 this.reverse = reverse;
+            },
+            goToTop: function () {
+                $("html").animate({scrollTop: 0});
             }
         }
     });
 
     $(function () {
-
+        $(document).scroll(function () {
+            if ($(this).scrollTop() !== 0) {
+                $(".up-helper").css("display", "flex");
+            } else {
+                $(".up-helper").css("display", "none");
+            }
+        });
     })
 
 </script>
