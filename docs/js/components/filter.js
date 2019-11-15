@@ -34,7 +34,7 @@ Vue.component('filter-component', {
     },
     watch: {
         searchPayload: function (val) {
-            if (val.length > 0) {
+            if (val.length >= 0) {
                 let tmp = val.trim().split(' ');
                 let kws = [];
                 for (let i = 0; i < tmp.length; i++) {
