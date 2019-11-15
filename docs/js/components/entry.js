@@ -24,7 +24,7 @@ Vue.component('entry', {
     template: `
 <div class="text-left">
     <div>
-        <a v-if="this.link.length > 0" v-bind:href="{link}" v-html="hTitle"></a>
+        <a v-if="this.link.length > 0" v-bind:href="link" v-html="hTitle"></a>
         <span v-else v-html="hTitle"></span>
     </div>
     <ul>
