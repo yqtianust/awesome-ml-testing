@@ -10,6 +10,11 @@ Vue.component('filter-component', {
             "reverse": false,
         }
     },
+    computed: {
+        "hasKws": function () {
+            return this.searchPayload.length !== 0
+        }
+    },
     methods: {
         changeSortedBy: function (column) {
             this.$emit("sortedby", column);
@@ -48,6 +53,11 @@ Vue.component('filter-component', {
         },
         reverse: function (val) {
             this.$emit("reverse", val);
+        },
+        hasKws: function (val) {
+            if (val === false) {
+                this.sortedBy = "title";
+            }
         }
     },
     template: `
@@ -76,6 +86,7 @@ Vue.component('filter-component', {
         <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'title'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('title')">Title</button>
         <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'conference'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('conference')">Conference</button>
         <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'author'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('author')">Author</button>
+        <button type="button" v-bind:class="['btn', 'btn-sm', sortedBy === 'similarity'? 'btn-primary' : 'btn-outline-primary']" v-on:click="changeSortedBy('similarity')" v-if="hasKws">Similarity</button>
     </div>
     <div class="ml-3 form-check-inline align-middle">
         <input type="checkbox" class="form-check-input" v-model="reverse" id="reverse">

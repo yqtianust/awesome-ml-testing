@@ -36,20 +36,52 @@ Vue.component('list', {
         }
     },
     methods: {
+        calculateSimilarity: function (entry, kws) {
+            let sim = 0;
+            let items = entry.title.split(/\s+/).concat(entry.authors);
+            let index = [];
+            for (let j = 0; j < kws.length; j++) {
+                index.push([]);
+                for (let i = 0; i < items.length; i++) {
+                    if (items[i].toLowerCase() === kws[j].toLowerCase()) {
+                        index[j].push(i);
+                    } else if (items[i].toLowerCase().indexOf(kws[j].toLowerCase()) >= 0) {
+                        index[j].push(i + 0.5);
+                    }
+                }
+            }
+            let s;
+            index[0].forEach(function (item) {
+                s = 100;
+                let sub = 0;
+                for (let i = 1; i < index.length; i++) {
+                    if (index[i].length === 0) {
+                        sub += 1;
+                    }
+                    if (index[i].indexOf(item + i) < 0) {
+                        // title not consecutive
+                        s = 80;
+                    }
+                }
+                if (sub > 0) {
+                    s = 60;
+                }
+                s = s - sub;
+                if (s > sim) {
+                    sim = s;
+                }
+            });
+            return sim;
+        },
         loadList: function () {
             let tmp = Array();
             if (this.kws.length > 0) {
-                this.entryList.forEach(function (item) {
-                    for (let i = 0; i < this.kws.length; i++) {
-                        let kw = this.kws[i];
-                        if (item.title.toLowerCase().indexOf(kw.toLowerCase()) >= 0 ||
-                            item.authors.join(" ").indexOf(kw.toLowerCase()) >= 0 ||
-                            item.venue.toLowerCase().indexOf(kw.toLowerCase()) >= 0) {
-                            tmp.push(item);
-                            break;
-                        }
+                for (let i = 0; i < this.entryList.length; i++) {
+                    this.entryList[i].similarity = this.calculateSimilarity(this.entryList[i], this.kws);
+                    if (this.entryList[i].similarity > 0) {
+                        tmp.push(this.entryList[i]);
                     }
-                }, this);
+                }
             } else {
                 tmp = Array.from(this.entryList);
             }
@@ -85,8 +117,14 @@ Vue.component('list', {
                 } else if (sortedBy === 'author') {
                     if (vue.reverse) {
                         return a.authors.join(' ') > b.authors.join(' ') ? -1 : 1;
-                    }else {
+                    } else {
                         return a.authors.join(' ') < b.authors.join(' ') ? -1 : 1;
+                    }
+                } else if (sortedBy === 'similarity') {
+                    if (vue.reverse) {
+                        return a.similarity < b.similarity ? -1 : 1;
+                    } else {
+                        return a.similarity > b.similarity ? -1 : 1;
                     }
                 }
             }));
