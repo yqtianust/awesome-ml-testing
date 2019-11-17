@@ -36,6 +36,10 @@ Vue.component('filter-component', {
             this.$emit("tags", this.checkedTags);
             // console.log(this.checkedTags)
         },
+        escapeRegExp: function (string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+        },
+
     },
     watch: {
         searchPayload: function (val) {
@@ -44,7 +48,7 @@ Vue.component('filter-component', {
                 let kws = [];
                 for (let i = 0; i < tmp.length; i++) {
                     if (tmp[i].length > 0) {
-                        kws.push(tmp[i].trim())
+                        kws.push(this.escapeRegExp(tmp[i].trim()));
                     }
                 }
                 this.$emit("keywords", kws);
