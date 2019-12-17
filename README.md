@@ -31,7 +31,9 @@ For paper:
 
 <a name="tools"></a>
 ## Tools
-
+   * EvalDNN: <https://github.com/yqtianust/EvalDNN>
+      * EvalDNN: A Toolbox for Evaluating Deep Neural Network Models.
+      * Benchmark: https://yqtianust.github.io/EvalDNN-benchmark/index.html
    * MuDNN: <https://github.com/microsoft/MMdnn>
       * MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML.
 
@@ -41,6 +43,7 @@ For paper:
       * A free benchmarking service for all open source ML repositories. You can submit your model and this web will run it against some benchmakrs.
    * Paper with Code: <https://paperswithcode.com/sota>
       * A website contains evalution results reported in DL/ML papers, as well as their code (if any). Note the code could be implemented by 3rd party.
+  
 
 <a name="papers"></a>
 ## Papers
@@ -83,6 +86,10 @@ For paper:
 1. TODO
 
 <a name="GPU"></a>
+
+## Courses:
+  * CS 590 Program Analysis For Deep Learning at Purdue University by Xiangyu Zhang: http://xyz-wiki.cs.purdue.edu/cs590-19f/doku.php?id=home
+
 ## Free GPU Resources
   * Google Colab
   * Paperspace gradient: <https://gradient.paperspace.com/>
