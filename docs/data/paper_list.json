@@ -1,7 +1,7 @@
 [
   {
     "title": "A Study of Oracle Approximations in Testing Deep Learning Libraries",
-    "link": "",
+    "link": "https://jinqiuyang.github.io/papers/ase19.pdf",
     "authors": [
       "Mahdi Nejadgholi",
       "Jinqiu Yang"
@@ -81,7 +81,7 @@
   },
   {
     "title": "Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning",
-    "link": "",
+    "link": "https://ieeexplore.ieee.org/document/8952543",
     "authors": [
       "Yan Zheng",
       "Xiaofei Xie",
