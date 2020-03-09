@@ -113,4 +113,18 @@
     "tags": [
     ]
   }
+  {
+    "title": "An Empirical Study on Bugs inside TensorFlow",
+    "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
+    "authors": [
+      "Li Jia",
+	"Hao Zhong",
+	"Xiaoyin Wang",
+	"Linpeng Huang",
+	"Xuansheng Lu"
+    ],
+    "venue": "arXiv'19",
+    "tags": ["tensorflow", "backend bugs"
+    ]
+  }
 ]
