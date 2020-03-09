@@ -118,13 +118,254 @@
     "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
     "authors": [
       "Li Jia",
-	"Hao Zhong",
-	"Xiaoyin Wang",
-	"Linpeng Huang",
-	"Xuansheng Lu"
+	    "Hao Zhong",
+	    "Xiaoyin Wang",
+	    "Linpeng Huang",
+	    "Xuansheng Lu"
     ],
     "venue": "arXiv'19",
     "tags": ["tensorflow", "backend bugs"
+    ]
+  },
+  {
+    "title": "Fuzz Testing based Data Augmentation to Improve Robustness of Deep Neural Networks",
+    "link": "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE20_Sensei.pdf",
+    "authors": [
+      "Xiang Gao",
+      "Ripon Saha", 
+      "Mukul Prasad",
+      "Abhik Roychoudhury"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["Fuzz", "Robustness"
+    ]
+  },
+  {
+    "title": "DeepBillboard: Systematic Physical-World Testing of Autonomous Driving Systems",
+    "link": "https://arxiv.org/abs/1812.10812",
+    "authors": [
+      "Husheng Zhou", 
+      "Wei Li", 
+      "Zelun Kong", 
+      "Junfeng Guo", 
+      "Yuqun Zhang", 
+      "Lingming Zhang", 
+      "Bei Yu", 
+      "Cong Liu"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["testing", "driving"
+    ]
+  },
+  {
+    "title": "An Empirical Study on Program Failures of Deep Learning Jobs",
+    "link": "",
+    "authors": [
+      "Ru Zhang", 
+      "Wencong Xiao", 
+      "Hongyu Zhang", 
+      "Yu Liu", 
+      "Haoxiang Lin", 
+      "Mao Yang"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["empirical study", "failure"
+    ]
+  },
+  {
+    "title": "Automatic Testing and Improvement of Machine Translation",
+    "link": "https://arxiv.org/pdf/1910.02688.pdf",
+    "authors": [
+      "Zeyu Sun", 
+      "Jie M. Zhang", 
+      "Mark Harman", 
+      "Mike Papadakis", 
+      "Lu Zhang"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["testing", "translation", "nlp"
+    ]
+  },
+  {
+    "title": "Importance-Driven Deep Learning System Testing",
+    "link": "http://eprints.whiterose.ac.uk/156747/1/PID6349913.pdf",
+    "authors": [
+      "Simos Gerasimou", 
+      "Hasan Ferit Eniser", 
+      "Alper Sen", 
+      "Alper Çakan"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["testing"
+    ]
+  },
+  {
+    "title": "Improving Data Scientist Efficiency with Provenance",
+    "link": "",
+    "authors": [
+      "Jingmei Hu", 
+      "Jiwon Joung", 
+      "Maia Jacobs", 
+      "Margo Seltzer", 
+      "Krzysztof Gajos"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["provenance"
+    ]
+  },
+  {
+    "title": "Misbehaviour Prediction for Autonomous Driving Systems",
+    "link": "https://arxiv.org/pdf/1910.04443",
+    "authors": [
+      "Andrea Stocco", 
+      "Michael Weiss", 
+      "Marco Calzana", 
+      "Paolo Tonella"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["misbehaviour prediction", "driving"
+    ]
+  },
+  {
+    "title": "Quickly Generating Diverse Valid Test Inputs with Reinforcement Learning",
+    "link": "https://people.eecs.berkeley.edu/~rohanpadhye/files/rlcheck-icse20.pdf",
+    "authors": [
+      "Sameer Reddy", 
+      "Caroline Lemieux", 
+      "Rohan Padhye", 
+      "Koushik Sen"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["tensorflow", "backend bugs"
+    ]
+  },
+  {
+    "title": "ReluDiff: Differential Verification of Deep Neural Networks",
+    "link": "https://arxiv.org/abs/2001.03662",
+    "authors": [
+      "Brandon Paulsen", 
+      "Jingbo Wang", 
+      "Chao Wang"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["differential", "verification"
+    ]
+  },
+  {
+    "title": "Repairing Deep Neural Networks: Fix Patterns and Challenges",
+    "link": "http://design.cs.iastate.edu/papers/ICSE-20a/bugrepair.pdf",
+    "authors": [
+      "Md Johirul Islam", 
+      "Rangeet Pan", 
+      "Giang Nguyen", 
+      "Hridesh Rajan"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["repairing"
+    ]
+  },
+  {
+    "title": "Simulee: Detecting CUDA Synchronization Bugs via Memory-Access Modeling",
+    "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
+    "authors": [
+      "Mingyuan Wu", 
+      "Yicheng Ouyang", 
+      "Husheng Zhou", 
+      "Lingming Zhang", 
+      "Cong Liu", 
+      "Yuqun Zhang"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["cuda", "bugs"
+    ]
+  },
+  {
+    "title": "Structure-Invariant Testing for Machine Translation",
+    "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
+    "authors": [
+      "Pinjia He", 
+      "Clara Meister", 
+      "Zhendong Su"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["testing", "nlp"
+    ]
+  },
+  {
+    "title": "Taxonomy of Real Faults in Deep Learning Systems",
+    "link": "https://arxiv.org/abs/1910.11015v3?utm_source=dlvr.it&utm_medium=twitter",
+    "authors": [
+      "Nargiz Humbatova", 
+      "Gunel Jahangirova", 
+      "Gabriele Bavota", 
+      "Vincenzo Riccio", 
+      "Andrea Stocco", 
+      "Paolo Tonella"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["empirical study", "program"
+    ]
+  },
+  {
+    "title": "Testing DNN Image Classifier for Confusion & Bias Errors",
+    "link": "https://arxiv.org/abs/1905.07831",
+    "authors": [
+      "Yuchi Tian", 
+      "Ziyuan Zhong", 
+      "Vicente Ordonez", 
+      "Gail Kaiser", 
+      "Baishakhi Ray"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["tensorflow", "backend bugs"
+    ]
+  },
+  {
+    "title": "Towards Characterizing Adversarial Defects of Deep Learning Software from the Lens of Uncertainty",
+    "link": "",
+    "authors": [
+      "Xiyue Zhang", 
+      "Xiaofei Xie", 
+      "Lei Ma", 
+      "Xiaoning Du", 
+      "Qiang Hu", 
+      "Yang Liu", 
+      "Jianjun Zhao", 
+      "Meng Sun"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["adversarial"
+    ]
+  },
+  {
+    "title": "Understanding the Automated Parameter Optimization on Transfer Learning for Cross-Project Defect Prediction: An Empirical Study",
+    "link": "http://taochen.github.io/publications/papers/camera-ready.pdf",
+    "authors": [
+      "Ke Li", 
+      "Zilin Xiang", 
+      "Tao Chen", 
+      "Shuo Wang", 
+      "Kay Chen Tan"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["program", "optimization", "empirical study"
+    ]
+  },
+  {
+    "title": "White-box Fairness Testing through Adversarial Sampling",
+    "link": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5635&context=sis_research",
+    "authors": [
+      "Peixin Zhang", 
+      "Jingyi Wang", 
+      "Jun Sun", 
+      "Guoliang Dong", 
+      "Xinyu Wang", 
+      "Xingen Wang", 
+      "Jin Song Dong", 
+      "Dai Ting"
+    ],
+    "venue": "ICSE'20",
+    "tags": ["testing", "fairness"
     ]
   }
 ]
