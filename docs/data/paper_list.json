@@ -112,7 +112,7 @@
     "venue": "CCS'19",
     "tags": [
     ]
-  }
+  },
   {
     "title": "An Empirical Study on Bugs inside TensorFlow",
     "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
