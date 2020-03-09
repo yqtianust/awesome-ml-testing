@@ -7,7 +7,7 @@
       "Jinqiu Yang"
     ],
     "venue": "ASE'19",
-    "tags": ["dl_lib", "oracle approximation"
+    "tags": ["platform", "oracle approximation"
     ]
   },
   {
@@ -137,7 +137,7 @@
       "Abhik Roychoudhury"
     ],
     "venue": "ICSE'20",
-    "tags": ["Fuzz", "Robustness"
+    "tags": ["fuzz", "testing", "robustness"
     ]
   },
   {
@@ -236,7 +236,7 @@
       "Koushik Sen"
     ],
     "venue": "ICSE'20",
-    "tags": ["tensorflow", "backend bugs"
+    "tags": ["tensorflow", "platform"
     ]
   },
   {
@@ -261,7 +261,7 @@
       "Hridesh Rajan"
     ],
     "venue": "ICSE'20",
-    "tags": ["repairing"
+    "tags": ["repair"
     ]
   },
   {
@@ -303,7 +303,7 @@
       "Paolo Tonella"
     ],
     "venue": "ICSE'20",
-    "tags": ["empirical study", "program"
+    "tags": ["empirical study", "program bugs"
     ]
   },
   {
