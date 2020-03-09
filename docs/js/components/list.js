@@ -38,7 +38,7 @@ Vue.component('list', {
     methods: {
         calculateSimilarity: function (entry, kws) {
             let sim = 0;
-            let items = entry.title.split(/\s+/).concat(entry.authors).concat(entry.venue);
+            let items = entry.title.split(/\s+/).concat(entry.authors);
             let index = [];
             for (let j = 0; j < kws.length; j++) {
                 index.push([]);
