@@ -1,3 +1,3 @@
 [submodule "paper-list-web"]
 	path = papers
-	url = git@github.com:yqtianust/paper-list.git  
+	url = https://github.com/yqtianust/awesome-ml-testing.git 
