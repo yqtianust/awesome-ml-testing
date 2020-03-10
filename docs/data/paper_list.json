@@ -25,7 +25,7 @@
       "Li Xiaohong"
     ],
     "venue": "ASE'19",
-    "tags": ["empirical study", "program bug", "tensorflow"
+    "tags": ["empirical study", "program bug", "backend bugs"
     ]
   },
   {
@@ -183,7 +183,7 @@
       "Lu Zhang"
     ],
     "venue": "ICSE'20",
-    "tags": ["testing", "translation", "nlp"
+    "tags": ["testing", "nlp"
     ]
   },
   {
@@ -303,7 +303,7 @@
       "Paolo Tonella"
     ],
     "venue": "ICSE'20",
-    "tags": ["empirical study", "program bugs"
+    "tags": ["empirical study", "program bug"
     ]
   },
   {
@@ -348,7 +348,7 @@
       "Kay Chen Tan"
     ],
     "venue": "ICSE'20",
-    "tags": ["program", "optimization", "empirical study"
+    "tags": ["learning optimization", "empirical study"
     ]
   },
   {
