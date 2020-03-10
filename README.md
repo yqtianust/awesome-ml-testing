@@ -3,7 +3,7 @@ Awesome material(papers, tools, etc.) about testing machine learning system, inc
 
 This repo will be updated continuously, don't hesitate to add new Pull Request or Issues if you find anything is missing! Please use the format [here](#format).
 
-**Web page for paper list in [ONLINE](https://yqtianust.github.io/awesome-ml-testing/docs)** Thanks to [@Troublor](https://github.com/Troublor). 
+**Web page for paper list in [ONLINE](https://yqtianust.github.io/awesome-ml-testing/papers)** Thanks to [@Troublor](https://github.com/Troublor). 
 
 ## Table of Contents):
    * [Tools](#tools)
@@ -87,7 +87,7 @@ For paper:
 -->
 <a name="talks"></a>
 ## Talks
-1. TODO
+   * Safety and Robustness for Deep Learning with Provable Guarantees by Marta Kwiatkowska: [slides](https://esec-fse19.ut.ee/wp-content/uploads/2019/08/marta-esecfse2019.pdf) [video](https://www.uttv.ee/naita?id=28731)
 
 <a name="GPU"></a>
 
