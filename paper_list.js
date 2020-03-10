@@ -296,7 +296,7 @@ const paper_list = [
         "venue": "ICSE",
         "year": "2020",
         "tags": [
-            "differential",
+            "differential testing",
             "verification"
         ]
     },
