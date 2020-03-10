@@ -51,7 +51,7 @@ For paper:
 
 <a name="papers"></a>
 ## Papers
-   See [Paper List](http://www.victortian.com/awesome-ml-testing/). Thanks to [@Troublor](https://github.com/Troublor)
+   See [Paper List](https://yqtianust.github.io/awesome-ml-testing). Thanks to [@Troublor](https://github.com/Troublor)
 <!--
    * A Study of Oracle Approximations in Testing Deep Learning Libraries
       * Mahdi Nejadgholi, Jinqiu Yang
