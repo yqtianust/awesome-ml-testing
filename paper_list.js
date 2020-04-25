@@ -630,5 +630,18 @@ const paper_list = [
         "venue": "ISSTA",
         "year": "2019",
         "tags": ["fuzz"]
+    },
+    {
+        "title": "A comprehensive study on deep learning bug characteristics",
+        "link": "https://dl.acm.org/doi/10.1145/3338906.3338955",
+        "authors": [
+            "Md Johirul Islam",
+            "Giang Nguyen",
+            "Rangeet Pan",
+            "Hridesh Rajan"
+        ],
+        "venue": "FSE",
+        "year": "2019",
+        "tags": ["bug", "empirical"]
     }
 ]
