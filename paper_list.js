@@ -643,5 +643,19 @@ const paper_list = [
         "venue": "FSE",
         "year": "2019",
         "tags": ["bug", "empirical"]
+    },
+    {
+        "title": "DLFuzz: Differential Fuzzing Testing of Deep Learning Systems",
+        "link": "https://arxiv.org/pdf/1808.09413.pdf",
+        "authors": [
+            "Jianmin Guo",
+            "Yu Jiang",
+            "Yue Zhao",
+            "Quan Chen",
+            "Jiaguang Sun"
+        ],
+        "venue": "FSE",
+        "year": "2019",
+        "tags": ["testing", "fuzz"]
     }
 ]
