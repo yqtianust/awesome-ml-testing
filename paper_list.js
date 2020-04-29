@@ -657,5 +657,20 @@ const paper_list = [
         "venue": "FSE",
         "year": "2019",
         "tags": ["testing", "fuzz"]
+    },
+    {
+        "title": "DeepStellar: model-based quantitative analysis of stateful deep learning systems",
+        "link": "https://dl.acm.org/doi/10.1145/3338906.3338954",
+        "authors": [
+            "Xiaoning Du",
+            "Xiaofei Xie",
+            "Yi Li",
+            "Lei Ma",
+            "Yang Liu",
+            "Jianzhu Zhao"
+        ],
+        "venue": "FSE",
+        "year": "2019",
+        "tags": ["RNN", "analysis"]
     }
 ]
