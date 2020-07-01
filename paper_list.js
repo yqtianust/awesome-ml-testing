@@ -672,5 +672,103 @@ const paper_list = [
         "venue": "FSE",
         "year": "2019",
         "tags": ["RNN", "analysis"]
+    },
+    {
+        "title": "Automated Repair of Feature Interaction Failures in Automated Driving Systems",
+        "link": "https://orbilu.uni.lu/bitstream/10993/43281/1/paper.pdf",
+        "authors": [
+            "Raja Ben Abdessalem",
+            "Annibale Panichella",
+            "Shiva Nejati",
+            "Lionel C. Briand",
+            "Thomas Stifter"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["repair", "driving"]
+    },
+    {
+        "title": "CoCoNuT: Combining Context-Aware Neural Translation Models using Ensemble for Program Repair",
+        "link": "https://www.cs.purdue.edu/homes/lintan/publications/coconut-issta20.pdf",
+        "authors": [
+            "Thibaud Lutellier",
+            "Viet Hung Pham",
+            "Lawrence Pang",
+            "Yitong Li",
+            "Moshi Wei",
+            "Lin Tan"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["translation"]
+    },
+    {
+        "title": "DeepGini: Prioritizing Massive Tests to Enhance the Robustness of Deep Neuron Networks",
+        "link": "https://www.cs.purdue.edu/homes/lintan/publications/coconut-issta20.pdf",
+        "authors": [
+            "Yang Feng",
+            "Qingkai Shi",
+            "Xinyu Gao",
+            "Muhammed Kerem Kahraman",
+            "Chunrong Fang",
+            "Zhenyu Chen"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["robustness"]
+    },
+    {
+        "title": "DeepGini: Prioritizing Massive Tests to Enhance the Robustness of Deep Neuron Networks",
+        "link": "https://www.cs.purdue.edu/homes/lintan/publications/coconut-issta20.pdf",
+        "authors": [
+            "Yang Feng",
+            "Qingkai Shi",
+            "Xinyu Gao",
+            "Muhammed Kerem Kahraman",
+            "Chunrong Fang",
+            "Zhenyu Chen"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["robustness"]
+    },
+    {
+        "title": "Detecting and Understanding Real-World Differential Performance Bugs in Machine Learning Libraries",
+        "link": "https://arxiv.org/abs/2006.01991",
+        "authors": [
+            "Yang Feng",
+            "Qingkai Shi",
+            "Xinyu Gao",
+            "Muhammed Kerem Kahraman",
+            "Chunrong Fang",
+            "Zhenyu Chen"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["library"]
+    },
+    {
+        "title": "Effective White-box Testing of Deep Neural Networks with Adaptive Neuron-Selection Strategy",
+        "link": "http://prl.korea.ac.kr/~pronto/home/papers/issta20.pdf",
+        "authors": [
+            "Seokhyun Lee",
+            "Sooyoung Cha",
+            "Dain Lee",
+            "Hakjoo Oh"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["testing"]
+    },
+    {
+        "title": "Higher Income, Larger Loan? Monotonicity Testing of Machine Learning Models",
+        "link": "https://arxiv.org/pdf/2002.12278.pdf",
+        "authors": [
+            "Arnab Sharma",
+            "Heike Wehrheim"
+        ],
+        "venue": "ISSTA",
+        "year": "2020",
+        "tags": ["testing"]
     }
 ]
