@@ -718,21 +718,6 @@ const paper_list = [
         "tags": ["robustness"]
     },
     {
-        "title": "DeepGini: Prioritizing Massive Tests to Enhance the Robustness of Deep Neuron Networks",
-        "link": "https://www.cs.purdue.edu/homes/lintan/publications/coconut-issta20.pdf",
-        "authors": [
-            "Yang Feng",
-            "Qingkai Shi",
-            "Xinyu Gao",
-            "Muhammed Kerem Kahraman",
-            "Chunrong Fang",
-            "Zhenyu Chen"
-        ],
-        "venue": "ISSTA",
-        "year": "2020",
-        "tags": ["robustness"]
-    },
-    {
         "title": "Detecting and Understanding Real-World Differential Performance Bugs in Machine Learning Libraries",
         "link": "https://arxiv.org/abs/2006.01991",
         "authors": [
