@@ -46,6 +46,10 @@ For paper:
       * A free benchmarking service for all open source ML repositories. You can submit your model and this web will run it against some benchmakrs.
    * Paper with Code: <https://paperswithcode.com/sota>
       * A website contains evalution results reported in DL/ML papers, as well as their code (if any). Note the code could be implemented by 3rd party.
+   * Distiller: <https://github.com/NervanaSystems/distiller>
+      * An open-source Python package for neural network compression research (Pytorch).
+   * NNCF: <https://github.com/openvinotoolkit/nncf_pytorch>
+      * Neural Network Compression Framework (NNCF) on Pytorch. 
 
 <a name="datasets"></a>
 ## Dataset
