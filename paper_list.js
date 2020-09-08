@@ -755,5 +755,292 @@ const paper_list = [
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["testing"]
+    },
+    {
+        "title": "A Comprehensive Study on Challenges in Deploying Deep Learning Based Software",
+        "link": "NOLINK",
+        "authors": ["Zhenpeng Chen",
+            "Yanbin Cao",
+            "Yuanqiang Liu",
+            "Haoyu Wang",
+            "Tao Xie",
+            "Xuanzhe Liu"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Correlations between Deep Neural Network Model Coverage Criteria and Model Quality",
+        "link": "NOLINK",
+        "authors": ["Shenao Yan",
+            "Guanhong Tao",
+            "Xuwei Liu",
+            "Juan Zhai",
+            "Shiqing Ma",
+            "Lei Xu",
+            "Xiangyu Zhang"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Deep Learning Library Testing via Effective Model Generation",
+        "link": "NOLINK",
+        "authors": ["Zan Wang",
+            "Ming Yan",
+            "Junjie Chen",
+            "Shuang Liu",
+            "Dongdi Zhang"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "DeepSearch: A Simple and Effective Blackbox Attack for Deep Neural Networks",
+        "link": "NOLINK",
+        "authors": ["Fuyuan Zhang",
+            "Sankalan Pal Chowdhury",
+            "Maria Christakis"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Dynamic Slicing for Deep Neural Networks",
+        "link": "NOLINK",
+        "authors": ["Ziqi Zhang",
+            "Yuanchun Li",
+            "Yao Guo",
+            "Xiangqun Chen",
+            "Yunxin Liu"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Is Neuron Coverage a Meaningful Measure for Testing Deep Neural Networks?",
+        "link": "NOLINK",
+        "authors": ["Fabrice Harel-Canada",
+            "Lingxiao Wang",
+            "Muhammad Ali Gulzar",
+            "Quanquan Gu",
+            "Miryung Kim"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+
+    {
+        "title": "MTFuzz: Fuzzing with a Multi-task Neural Network",
+        "link": "NOLINK",
+        "authors": ["Dongdong She",
+            "Rahul Krishna",
+            "Lu Yan",
+            "Suman Jana",
+            "Baishakhi Ray"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Machine Translation Testing via Pathological Invariance",
+        "link": "NOLINK",
+        "authors": ["Shashij Gupta",
+            "Pinjia He",
+            "Clara Meister",
+            "Zhendong Su"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "On Decomposing a Deep Neural Network into Modules",
+        "link": "NOLINK",
+        "authors": ["Rangeet Pan",
+            "Hridesh Rajan"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Operational Calibration: Debugging Confidence Errors for DNNs in the Field",
+        "link": "NOLINK",
+        "authors": ["Zenan Li",
+            "Xiaoxing Ma",
+            "Chang Xu",
+            "Jingwei Xu",
+            "Chun Cao",
+            "Jian Lu"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Audee: Automated Testing for Deep Learning Frameworks",
+        "link": "None",
+        "authors": ["Qianyu Guo", "Xiaofei Xie", "Yi Li", "Xiaoyu Zhang", "Yang Liu", "Li Xiaohong", "Chao Shen"],
+        "venue": "ASE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "BigFuzz: Efficient Fuzz Testing for Data Analytics using Framework Abstraction",
+        "link": "None",
+        "authors": ["Qian Zhang", "Jiyuan Wang", "Muhammad Ali Gulzar", "Rohan Padhye", "Miryung Kim"],
+        "venue": "ASE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "CP-Detector: Using Configuration-related Performance Properties to Expose Performance Bugs",
+        "link": "None",
+        "authors": ["Haochen He", "Zhouyang Jia", "Shanshan Li", "Erci Xu", "Tingting Yu", "Yue Yu", "Ji Wang", "Xiangke Liao    "],
+        "venue": "ASE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Cats Are Not Fish: Deep Learning Testing Calls for Out-Of-Distribution Awareness",
+        "link": "None",
+        "authors": ["David Berend", "Xiaofei Xie", "Lei Ma", "Lingjun Zhou", "Yang Liu", "Chi Xu", "Jianjun Zhao "],
+        "venue": "ASE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title":
+            "How Incidental are the Incidents ? Characterizing and Prioritizing Incidents\n" +
+            "for Large - Scale Online Service Systems",
+        "link": "None",
+        "authors":
+            ["Junjie Chen", "Shu Zhang", "Xiaoting He", "Qingwei Lin", "Hongyu Zhang", "Dan Hao", "Yu Kang", "Feng Gao", "Zhangwei Xu", "Yingnong Dang", "Dongmei Zhang   "],
+        "venue": "ASE",
+        "year": "2020",
+        "tags": []
+    },
+    {
+        "title": "Hybrid Deep Neural Networks to Infer State Models of Black-Box Systems",
+        "link":
+            "None",
+        "authors":
+            ["Mohammad Jafar Mashhadi", "Hadi Hemmati"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "MARBLE: Model-Based Robustness Analysis of Stateful Deep Learning Systems",
+        "link":
+            "None",
+        "authors":
+            ["Xiaoning Du", "Yi Li", "Xiaofei Xie", "Lei Ma", "Yang Liu", "Jianjun Zhao   "],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "Metamorphic Object Insertion for Testing Object Detection Systems",
+        "link":
+            "None",
+        "authors":
+            ["Shuai Wang", "Zhendong Su"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "Multiple-Boundary Clustering and Prioritization to Promote Neural Network Retraining",
+        "link":
+            "None",
+        "authors":
+            ["Weijun Shen", "Yanhui Li", "Lin Chen", "YuanLei Han", "Yuming Zhou", "Baowen Xu"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "NeuroDiff: Scalable Differential Verification of Neural Networks using Fine-Grained Approximation ",
+        "link":
+            "None",
+        "authors":
+            ["Brandon Paulsen", "Jingbo Wang", "Jiawei Wang", "Chao Wang"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "Problems and Opportunities in Training Deep Learning Software Systems: An Analysis of Variance",
+        "link":
+            "None",
+        "authors":
+            ["Viet Hung Pham", "Shangshu Qian", "Jiannan Wang", "Thibaud Lutellier", "Jonathan Rosenthal", "Lin Tan", "Yaoliang Yu", "Nachiappan Nagappan"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "Towards Interpreting Recurrent Neural Networks through Probabilistic Abstraction",
+        "link":
+            "None",
+        "authors":
+            ["Guoliang Dong", "Jingyi Wang", "Jun Sun", "Yang Zhang", "Xinyu Wang", "Dai Ting", "Jin Song Dong", "Xingen Wang"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "Understanding Performance Concerns in the API Documentation of Data Science Libraries",
+        "link":
+            "None",
+        "authors":
+            ["Yida Tao", "Jiefang Jiang", "Yepang Liu", "Zhiwu Xu", "Shengchao Qin"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
+    },
+    {
+        "title":
+            "Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling",
+        "link":
+            "None",
+        "authors":
+            ["Chijin Zhou", "Mingzhe Wang", "Jie Liang", "Zhe Liu", "Yu Jiang"],
+        "venue":
+            "ASE",
+        "year":
+            "2020",
+        "tags":
+            []
     }
 ]
