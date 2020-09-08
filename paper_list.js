@@ -767,7 +767,7 @@ const paper_list = [
             "Xuanzhe Liu"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["empirical"]
     },
     {
         "title": "Correlations between Deep Neural Network Model Coverage Criteria and Model Quality",
@@ -781,7 +781,7 @@ const paper_list = [
             "Xiangyu Zhang"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["neuron coverage", "empirical"]
     },
     {
         "title": "Deep Learning Library Testing via Effective Model Generation",
@@ -793,7 +793,7 @@ const paper_list = [
             "Dongdi Zhang"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["library", "testing"]
     },
     {
         "title": "DeepSearch: A Simple and Effective Blackbox Attack for Deep Neural Networks",
@@ -803,7 +803,7 @@ const paper_list = [
             "Maria Christakis"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["attack"]
     },
     {
         "title": "Dynamic Slicing for Deep Neural Networks",
@@ -815,7 +815,7 @@ const paper_list = [
             "Yunxin Liu"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["analysis"]
     },
     {
         "title": "Is Neuron Coverage a Meaningful Measure for Testing Deep Neural Networks?",
@@ -827,7 +827,7 @@ const paper_list = [
             "Miryung Kim"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["neuron coverage", "empirical"]
     },
 
     {
@@ -840,7 +840,7 @@ const paper_list = [
             "Baishakhi Ray"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["fuzz"]
     },
     {
         "title": "Machine Translation Testing via Pathological Invariance",
@@ -851,7 +851,7 @@ const paper_list = [
             "Zhendong Su"],
         "venue": "FSE",
         "year": "2020",
-        "tags": []
+        "tags": ["translation"]
     },
     {
         "title": "On Decomposing a Deep Neural Network into Modules",
@@ -881,7 +881,7 @@ const paper_list = [
         "authors": ["Qianyu Guo", "Xiaofei Xie", "Yi Li", "Xiaoyu Zhang", "Yang Liu", "Li Xiaohong", "Chao Shen"],
         "venue": "ASE",
         "year": "2020",
-        "tags": []
+        "tags": ["testing"]
     },
     {
         "title": "BigFuzz: Efficient Fuzz Testing for Data Analytics using Framework Abstraction",
@@ -889,7 +889,7 @@ const paper_list = [
         "authors": ["Qian Zhang", "Jiyuan Wang", "Muhammad Ali Gulzar", "Rohan Padhye", "Miryung Kim"],
         "venue": "ASE",
         "year": "2020",
-        "tags": []
+        "tags": ["fuzz"]
     },
     {
         "title": "CP-Detector: Using Configuration-related Performance Properties to Expose Performance Bugs",
