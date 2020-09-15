@@ -876,6 +876,15 @@ const paper_list = [
         "tags": []
     },
     {
+        "title": "Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness",
+        "link": "https://arxiv.org/abs/2005.12379",
+        "authors": ["Sumon Biswas",
+            "Hridesh Rajan"],
+        "venue": "FSE",
+        "year": "2020",
+        "tags": ["fairness"]
+    },
+    {
         "title": "Audee: Automated Testing for Deep Learning Frameworks",
         "link": "None",
         "authors": ["Qianyu Guo", "Xiaofei Xie", "Yi Li", "Xiaoyu Zhang", "Yang Liu", "Li Xiaohong", "Chao Shen"],
