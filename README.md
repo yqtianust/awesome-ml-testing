@@ -49,7 +49,10 @@ For paper:
    * Distiller: <https://github.com/NervanaSystems/distiller>
       * An open-source Python package for neural network compression research (Pytorch).
    * NNCF: <https://github.com/openvinotoolkit/nncf_pytorch>
-      * Neural Network Compression Framework (NNCF) on Pytorch. 
+      * Neural Network Compression Framework (NNCF) on Pytorch.
+   * ML-Fairness: <https://github.com/sumonbis/ML-Fairness>
+      * Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness. 
+ 
 
 <a name="datasets"></a>
 ## Dataset
