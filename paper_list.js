@@ -640,7 +640,7 @@ const paper_list = [
             "Rangeet Pan",
             "Hridesh Rajan"
         ],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["bug", "empirical"]
     },
@@ -654,7 +654,7 @@ const paper_list = [
             "Quan Chen",
             "Jiaguang Sun"
         ],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["testing", "fuzz"]
     },
@@ -669,7 +669,7 @@ const paper_list = [
             "Yang Liu",
             "Jianzhu Zhao"
         ],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["RNN", "analysis"]
     },
@@ -765,7 +765,7 @@ const paper_list = [
             "Haoyu Wang",
             "Tao Xie",
             "Xuanzhe Liu"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["empirical"]
     },
@@ -779,7 +779,7 @@ const paper_list = [
             "Shiqing Ma",
             "Lei Xu",
             "Xiangyu Zhang"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["neuron coverage", "empirical"]
     },
@@ -791,7 +791,7 @@ const paper_list = [
             "Junjie Chen",
             "Shuang Liu",
             "Dongdi Zhang"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["library", "testing"]
     },
@@ -801,7 +801,7 @@ const paper_list = [
         "authors": ["Fuyuan Zhang",
             "Sankalan Pal Chowdhury",
             "Maria Christakis"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["attack"]
     },
@@ -813,7 +813,7 @@ const paper_list = [
             "Yao Guo",
             "Xiangqun Chen",
             "Yunxin Liu"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["analysis"]
     },
@@ -825,7 +825,7 @@ const paper_list = [
             "Muhammad Ali Gulzar",
             "Quanquan Gu",
             "Miryung Kim"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["neuron coverage", "empirical"]
     },
@@ -838,7 +838,7 @@ const paper_list = [
             "Lu Yan",
             "Suman Jana",
             "Baishakhi Ray"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["fuzz"]
     },
@@ -849,7 +849,7 @@ const paper_list = [
             "Pinjia He",
             "Clara Meister",
             "Zhendong Su"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["translation"]
     },
@@ -858,7 +858,7 @@ const paper_list = [
         "link": "NOLINK",
         "authors": ["Rangeet Pan",
             "Hridesh Rajan"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": []
     },
@@ -871,7 +871,7 @@ const paper_list = [
             "Jingwei Xu",
             "Chun Cao",
             "Jian Lu"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": []
     },
@@ -880,7 +880,7 @@ const paper_list = [
         "link": "https://arxiv.org/abs/2005.12379",
         "authors": ["Sumon Biswas",
             "Hridesh Rajan"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["fairness"]
     },
