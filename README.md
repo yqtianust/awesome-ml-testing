@@ -3,9 +3,9 @@ Awesome material(papers, tools, etc.) about testing machine learning system, inc
 
 This repo will be updated continuously, don't hesitate to add new Pull Request or Issues if you find anything is missing! Please use the format [here](#format).
 
-**Web page for paper list in a seperate [webpage](https://yqtianust.github.io/awesome-ml-testing/papers)**. The webpage has fancy searchbox. Thanks to [@Troublor](https://github.com/Troublor). 
+**A seperate web page for paper list is [here](https://yqtianust.github.io/awesome-ml-testing/papers)**. The webpage has fancy searchbox. Thanks to [@Troublor](https://github.com/Troublor). 
 
-My personal webpage is [here](http://home.cse.ust.hk/~ytianas/) and [here](https://cs.uwaterloo.ca/~y258tian/)
+My personal webpage is [here](http://home.cse.ust.hk/~ytianas/) and [here](https://cs.uwaterloo.ca/~y258tian/).
 
 ## Table of Contents):
    * [Tools](#tools)
