@@ -10,7 +10,7 @@ const paper_list = [
         "year": "2019",
         "tags": [
             "platform",
-            "oracle approximation"
+            "oracle"
         ]
     },
     {
@@ -32,7 +32,7 @@ const paper_list = [
         "tags": [
             "empirical study",
             "program bug",
-            "backend bugs"
+            "backend bug"
         ]
     },
     {
@@ -60,7 +60,7 @@ const paper_list = [
         "venue": "ASE",
         "year": "2019",
         "tags": [
-            "interpreting",
+            "interpret",
             "attention"
         ]
     },
@@ -147,7 +147,8 @@ const paper_list = [
         "year": "2019",
         "tags": [
             "tensorflow",
-            "backend bugs"
+            "backend bug", 
+            "empirical study"
         ]
     },
     {
@@ -330,7 +331,7 @@ const paper_list = [
         "year": "2020",
         "tags": [
             "cuda",
-            "bugs"
+            "bug"
         ]
     },
     {
@@ -380,7 +381,7 @@ const paper_list = [
         "year": "2020",
         "tags": [
             "tensorflow",
-            "backend bugs"
+            "backend bug"
         ]
     },
     {
@@ -483,7 +484,7 @@ const paper_list = [
         "venue": "NeurIPS",
         "year": "2018",
         "tags": [
-            "interpretability"
+            "interpret"
         ]
     },
     {
@@ -642,7 +643,7 @@ const paper_list = [
         ],
         "venue": "ESEC/FSE",
         "year": "2019",
-        "tags": ["bug", "empirical"]
+        "tags": ["bug", "empirical study"]
     },
     {
         "title": "DLFuzz: Differential Fuzzing Testing of Deep Learning Systems",
@@ -767,7 +768,7 @@ const paper_list = [
             "Xuanzhe Liu"],
         "venue": "ESEC/FSE",
         "year": "2020",
-        "tags": ["empirical"]
+        "tags": ["empirical study"]
     },
     {
         "title": "Correlations between Deep Neural Network Model Coverage Criteria and Model Quality",
@@ -781,7 +782,7 @@ const paper_list = [
             "Xiangyu Zhang"],
         "venue": "ESEC/FSE",
         "year": "2020",
-        "tags": ["neuron coverage", "empirical"]
+        "tags": ["neuron coverage", "empirical study"]
     },
     {
         "title": "Deep Learning Library Testing via Effective Model Generation",
@@ -827,7 +828,7 @@ const paper_list = [
             "Miryung Kim"],
         "venue": "ESEC/FSE",
         "year": "2020",
-        "tags": ["neuron coverage", "empirical"]
+        "tags": ["neuron coverage", "empirical study"]
     },
 
     {
@@ -882,7 +883,7 @@ const paper_list = [
             "Hridesh Rajan"],
         "venue": "ESEC/FSE",
         "year": "2020",
-        "tags": ["fairness"]
+        "tags": ["fairness", "empirical study"]
     },
     {
         "title": "Audee: Automated Testing for Deep Learning Frameworks",
