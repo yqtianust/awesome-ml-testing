@@ -611,6 +611,13 @@ const paper_list = [
         "venue": "FSE",
         "year": "2019",
         "tags": ["fairness"]
+    }{
+        "title": "",
+        "link": "http://ieeexplore.ieee.org/document/9000651/",
+        "authors": ["Jie M. Zhang", "Mark Harman", "Lei Ma", "Yang Liu"],
+        "venue": "TSE",
+        "year": "2020",
+        "tags": ["survey"]
     }
 
 ]
