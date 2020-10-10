@@ -611,13 +611,22 @@ const paper_list = [
         "venue": "FSE",
         "year": "2019",
         "tags": ["fairness"]
-    }{
-        "title": "",
+    },
+    {
+        "title": "Machine Learning Testing: Survey, Landscapes and Horizons",
         "link": "http://ieeexplore.ieee.org/document/9000651/",
         "authors": ["Jie M. Zhang", "Mark Harman", "Lei Ma", "Yang Liu"],
         "venue": "TSE",
         "year": "2020",
         "tags": ["survey"]
+    },
+    {
+        "title": "Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks",
+        "link": "https://cs.ucsb.edu/~bolunwang/assets/docs/backdoor-sp19.pdf",
+        "authors": ["Jie M. Zhang", "Mark Harman", "Lei Ma", "Yang Liu"],
+        "venue": "S&P",
+        "year": "2020",
+        "tags": ["backdoor"]
     }
 
 ]
