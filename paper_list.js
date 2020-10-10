@@ -625,7 +625,7 @@ const paper_list = [
         "link": "https://cs.ucsb.edu/~bolunwang/assets/docs/backdoor-sp19.pdf",
         "authors": ["Jie M. Zhang", "Mark Harman", "Lei Ma", "Yang Liu"],
         "venue": "S&P",
-        "year": "2020",
+        "year": "2019",
         "tags": ["backdoor"]
     }
 
