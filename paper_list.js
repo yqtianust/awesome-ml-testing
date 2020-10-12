@@ -207,11 +207,11 @@ const paper_list = [
     },
     {
         "title": "Towards Characterizing Adversarial Defects of Deep Learning Software from the Lens of Uncertainty",
-        "link": "",
+        "link": "https://dl.acm.org/doi/10.1145/3377811.3380368",
         "authors": [ "Xiyue Zhang", "Xiaofei Xie", "Lei Ma", "Xiaoning Du", "Qiang Hu", "Yang Liu", "Jianjun Zhao", "Meng Sun"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "adversarial"
+        "tags": [ "adversarial", "certainty"
         ]
     },
     {
