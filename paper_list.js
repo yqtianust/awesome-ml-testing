@@ -627,6 +627,14 @@ const paper_list = [
         "venue": "S&P",
         "year": "2019",
         "tags": ["backdoor"]
+    },
+    {
+        "title": "Adversarial sample detection for deep neural network through model mutation testing",
+        "link": "https://doi.org/10.1109/ICSE.2019.00126",
+        "authors": ["Jingyi Wang", "Guoliang Dong", "Jun Sun", "Xinyu Wang", "Peixin Zhang"],
+        "venue": "ICSE",
+        "year": "2019",
+        "tags": ["detection", "adversarial"]
     }
 
 ]
