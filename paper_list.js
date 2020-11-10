@@ -608,7 +608,7 @@ const paper_list = [
         "title": "Black box fairness testing of machine learning models",
         "link": "https://dl.acm.org/doi/10.1145/3338906.3338937",
         "authors": ["Aniya Aggarwal", "Pranay Lohia", "Seema Nagar", "Kuntal Dey", "Diptikalyan Saha"],
-        "venue": "FSE",
+        "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["fairness"]
     },
