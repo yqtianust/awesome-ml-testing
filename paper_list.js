@@ -635,6 +635,22 @@ const paper_list = [
         "venue": "ICSE",
         "year": "2019",
         "tags": ["detection", "adversarial"]
-    }
+    },
+    {
+        "title": "Estimating GPU Memory Consumption of Deep Learning Models",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3368089.3417050",
+        "authors": ["Yanjie Gao", "Yu Liu", "Hongyu Zhang", "Zhengxian Li", "Yonghao Zhu", "Haoxiang Lin", "Mao Yang"],
+        "venue": "ESEC/FSE",
+        "year": "2020",
+        "tags": ["GPU"]
+    },
+    {
+        "title": "A First Look at the Integration of Machine Learning Models in Complex Autonomous Driving Systems: A Case Study on Apollo",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3368089.3417063",
+        "authors": ["Zi Peng", "Jinqiu Yang", "Tse-Hsun (Peter) Chen","Lei Ma"],
+        "venue": "ESEC/FSE",
+        "year": "2020",
+        "tags": ["integration system"]
+    },
 
 ]
