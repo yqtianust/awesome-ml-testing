@@ -652,5 +652,14 @@ const paper_list = [
         "year": "2020",
         "tags": ["integration system"]
     },
+    {
+        "title": "Identifying Implementation Bugs in Machine Learning Based Image Classifiers Using Metamorphic Testing",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3368089.3417063",
+        "authors": ["Anurag Dwarakanath", "Manish Ahuja", "Samarth Sikand", "Raghotham M. Rao", 
+        "R. P. Jagadeesh Chandra Bose", "Neville Dubash", "Sanjay Podder"],
+        "venue": "ISSTA",
+        "year": "2018",
+        "tags": ["metamorphic", "program"]
+    }
 
 ]
