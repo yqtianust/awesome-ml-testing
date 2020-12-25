@@ -2,70 +2,70 @@ const paper_list = [
     {
         "title": "A Study of Oracle Approximations in Testing Deep Learning Libraries",
         "link": "https://jinqiuyang.github.io/papers/ase19.pdf",
-        "authors": [ "Mahdi Nejadgholi", "Jinqiu Yang"],
+        "authors": ["Mahdi Nejadgholi", "Jinqiu Yang"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "platform", "oracle"
+        "tags": ["platform", "oracle"
         ]
     },
     {
         "title": "An Empirical Study towards Characterizing Deep Learning Development and Deployment across Different Frameworks and Platforms",
         "link": "https://arxiv.org/abs/1909.06727",
-        "authors": [ "Qianyu Guo", "Sen Chen", "Xiaofei Xie", "Lei Ma", "Qiang Hu", "Hongtao Liu", "Yang Liu", "Jianjun Zhao", "Li Xiaohong"],
+        "authors": ["Qianyu Guo", "Sen Chen", "Xiaofei Xie", "Lei Ma", "Qiang Hu", "Hongtao Liu", "Yang Liu", "Jianjun Zhao", "Li Xiaohong"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "empirical study", "program bug", "backend bug"
+        "tags": ["empirical study", "program bug", "backend bug"
         ]
     },
     {
         "title": "Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models",
         "link": "http://www.cs.cityu.edu.hk/~wkchan/papers/ase2019-zhang+chan.pdf",
-        "authors": [ "Hao Zhang", "Wing-Kwong Chan"],
+        "authors": ["Hao Zhang", "Wing-Kwong Chan"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "repair", "model bug"
+        "tags": ["repair", "model bug"
         ]
     },
     {
         "title": "AutoFocus: Interpreting Attention-based Neural Networks by Code Perturbation",
         "link": "https://bdqnghi.github.io/files/ASE_2019_NIER.pdf",
-        "authors": [ "Nghi Duy Quoc Bui", "Yijun Yu", "Lingxiao Jiang"],
+        "authors": ["Nghi Duy Quoc Bui", "Yijun Yu", "Lingxiao Jiang"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "interpret", "attention"
+        "tags": ["interpret", "attention"
         ]
     },
     {
         "title": "Automating CUDA Synchronization via Program Transformation",
         "link": "http://www.shinhwei.com/cuda-repair.pdf",
-        "authors": [ "Mingyuan Wu", "Lingming Zhang", "Cong Liu", "Shin Hwei Tan", "Yuqun Zhang"],
+        "authors": ["Mingyuan Wu", "Lingming Zhang", "Cong Liu", "Shin Hwei Tan", "Yuqun Zhang"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "cuda", "synchronization"
+        "tags": ["cuda", "synchronization"
         ]
     },
     {
         "title": "Property Inference for Deep Neural Networks",
         "link": "https://arxiv.org/abs/1904.13215",
-        "authors": [ "Divya Gopinath", "Hayes Converse", "Corina S. Pasareanu", "Ankur Taly", "Yuqun Zhang"],
+        "authors": ["Divya Gopinath", "Hayes Converse", "Corina S. Pasareanu", "Ankur Taly", "Yuqun Zhang"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "property inference"
+        "tags": ["property inference"
         ]
     },
     {
         "title": "Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning",
         "link": "https://ieeexplore.ieee.org/document/8952543",
-        "authors": [ "Yan Zheng", "Xiaofei Xie", "Ting Su", "Lei Ma", "Jianye Hao", "Zhaopeng Meng", "Yang Liu", "Ruimin Shen", "Yinfeng Chen", "Changjie Fan"],
+        "authors": ["Yan Zheng", "Xiaofei Xie", "Ting Su", "Lei Ma", "Jianye Hao", "Zhaopeng Meng", "Yang Liu", "Ruimin Shen", "Yinfeng Chen", "Changjie Fan"],
         "venue": "ASE",
         "year": "2019",
-        "tags": [ "game"
+        "tags": ["game"
         ]
     },
     {
         "title": "ABS: Scanning Neural Networks for Back-doors by Artificial Brain Stimulation",
         "link": "https://www.cs.rutgers.edu/~sm2283/papers/CCS19.pdf",
-        "authors": [ "Yingqi Liu", "Wen-Chuan Lee", "Guanhong Tao", "Shiqing Ma", "Yousra Aafer", "Xiangyu Zhang"],
+        "authors": ["Yingqi Liu", "Wen-Chuan Lee", "Guanhong Tao", "Shiqing Ma", "Yousra Aafer", "Xiangyu Zhang"],
         "venue": "CCS",
         "year": "2019",
         "tags": []
@@ -73,196 +73,196 @@ const paper_list = [
     {
         "title": "An Empirical Study on Bugs inside TensorFlow",
         "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
-        "authors": [ "Li Jia", "Hao Zhong", "Xiaoyin Wang", "Linpeng Huang", "Xuansheng Lu"],
+        "authors": ["Li Jia", "Hao Zhong", "Xiaoyin Wang", "Linpeng Huang", "Xuansheng Lu"],
         "venue": "arXiv",
         "year": "2019",
-        "tags": [ "tensorflow", "backend bug",  "empirical study"
+        "tags": ["tensorflow", "backend bug", "empirical study"
         ]
     },
     {
         "title": "Fuzz Testing based Data Augmentation to Improve Robustness of Deep Neural Networks",
         "link": "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE20_Sensei.pdf",
-        "authors": [ "Xiang Gao", "Ripon Saha", "Mukul Prasad", "Abhik Roychoudhury"],
+        "authors": ["Xiang Gao", "Ripon Saha", "Mukul Prasad", "Abhik Roychoudhury"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "fuzz", "testing", "robustness"
+        "tags": ["fuzz", "testing", "robustness"
         ]
     },
     {
         "title": "DeepBillboard: Systematic Physical-World Testing of Autonomous Driving Systems",
         "link": "https://arxiv.org/abs/1812.10812",
-        "authors": [ "Husheng Zhou", "Wei Li", "Zelun Kong", "Junfeng Guo", "Yuqun Zhang", "Lingming Zhang", "Bei Yu", "Cong Liu"],
+        "authors": ["Husheng Zhou", "Wei Li", "Zelun Kong", "Junfeng Guo", "Yuqun Zhang", "Lingming Zhang", "Bei Yu", "Cong Liu"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "testing", "driving"
+        "tags": ["testing", "driving"
         ]
     },
     {
         "title": "An Empirical Study on Program Failures of Deep Learning Jobs",
         "link": "",
-        "authors": [ "Ru Zhang", "Wencong Xiao", "Hongyu Zhang", "Yu Liu", "Haoxiang Lin", "Mao Yang"],
+        "authors": ["Ru Zhang", "Wencong Xiao", "Hongyu Zhang", "Yu Liu", "Haoxiang Lin", "Mao Yang"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "empirical study", "failure"
+        "tags": ["empirical study", "failure"
         ]
     },
     {
         "title": "Automatic Testing and Improvement of Machine Translation",
         "link": "https://arxiv.org/pdf/1910.02688.pdf",
-        "authors": [ "Zeyu Sun", "Jie M. Zhang", "Mark Harman", "Mike Papadakis", "Lu Zhang"],
+        "authors": ["Zeyu Sun", "Jie M. Zhang", "Mark Harman", "Mike Papadakis", "Lu Zhang"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "testing", "nlp"
+        "tags": ["testing", "nlp"
         ]
     },
     {
         "title": "Importance-Driven Deep Learning System Testing",
         "link": "http://eprints.whiterose.ac.uk/156747/1/PID6349913.pdf",
-        "authors": [ "Simos Gerasimou", "Hasan Ferit Eniser", "Alper Sen", "Alper Çakan"],
+        "authors": ["Simos Gerasimou", "Hasan Ferit Eniser", "Alper Sen", "Alper Çakan"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "testing"
+        "tags": ["testing"
         ]
     },
     {
         "title": "Improving Data Scientist Efficiency with Provenance",
         "link": "",
-        "authors": [ "Jingmei Hu", "Jiwon Joung", "Maia Jacobs", "Margo Seltzer", "Krzysztof Gajos"],
+        "authors": ["Jingmei Hu", "Jiwon Joung", "Maia Jacobs", "Margo Seltzer", "Krzysztof Gajos"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "provenance"
+        "tags": ["provenance"
         ]
     },
     {
         "title": "Misbehaviour Prediction for Autonomous Driving Systems",
         "link": "https://arxiv.org/pdf/1910.04443",
-        "authors": [ "Andrea Stocco", "Michael Weiss", "Marco Calzana", "Paolo Tonella"],
+        "authors": ["Andrea Stocco", "Michael Weiss", "Marco Calzana", "Paolo Tonella"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "misbehaviour prediction", "driving"
+        "tags": ["misbehaviour prediction", "driving"
         ]
     },
     {
         "title": "Quickly Generating Diverse Valid Test Inputs with Reinforcement Learning",
         "link": "https://people.eecs.berkeley.edu/~rohanpadhye/files/rlcheck-icse20.pdf",
-        "authors": [ "Sameer Reddy", "Caroline Lemieux", "Rohan Padhye", "Koushik Sen"],
+        "authors": ["Sameer Reddy", "Caroline Lemieux", "Rohan Padhye", "Koushik Sen"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "tensorflow", "platform"
+        "tags": ["tensorflow", "platform"
         ]
     },
     {
         "title": "ReluDiff: Differential Verification of Deep Neural Networks",
         "link": "https://arxiv.org/abs/2001.03662",
-        "authors": [ "Brandon Paulsen", "Jingbo Wang", "Chao Wang"],
+        "authors": ["Brandon Paulsen", "Jingbo Wang", "Chao Wang"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "differential testing", "verification"
+        "tags": ["differential testing", "verification"
         ]
     },
     {
         "title": "Repairing Deep Neural Networks: Fix Patterns and Challenges",
         "link": "http://design.cs.iastate.edu/papers/ICSE-20a/bugrepair.pdf",
-        "authors": [ "Md Johirul Islam", "Rangeet Pan", "Giang Nguyen", "Hridesh Rajan"],
+        "authors": ["Md Johirul Islam", "Rangeet Pan", "Giang Nguyen", "Hridesh Rajan"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "repair"
+        "tags": ["repair"
         ]
     },
     {
         "title": "Simulee: Detecting CUDA Synchronization Bugs via Memory-Access Modeling",
         "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
-        "authors": [ "Mingyuan Wu", "Yicheng Ouyang", "Husheng Zhou", "Lingming Zhang", "Cong Liu", "Yuqun Zhang"],
+        "authors": ["Mingyuan Wu", "Yicheng Ouyang", "Husheng Zhou", "Lingming Zhang", "Cong Liu", "Yuqun Zhang"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "cuda", "bug"
+        "tags": ["cuda", "bug"
         ]
     },
     {
         "title": "Structure-Invariant Testing for Machine Translation",
         "link": "http://www.cs.sjtu.edu.cn/~zhonghao/paper/tfbug.pdf",
-        "authors": [ "Pinjia He", "Clara Meister", "Zhendong Su"],
+        "authors": ["Pinjia He", "Clara Meister", "Zhendong Su"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "testing", "nlp"
+        "tags": ["testing", "nlp"
         ]
     },
     {
         "title": "Taxonomy of Real Faults in Deep Learning Systems",
         "link": "https://arxiv.org/abs/1910.11015v3?utm_source=dlvr.it&utm_medium=twitter",
-        "authors": [ "Nargiz Humbatova", "Gunel Jahangirova", "Gabriele Bavota", "Vincenzo Riccio", "Andrea Stocco", "Paolo Tonella"],
+        "authors": ["Nargiz Humbatova", "Gunel Jahangirova", "Gabriele Bavota", "Vincenzo Riccio", "Andrea Stocco", "Paolo Tonella"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "empirical study", "program bug"
+        "tags": ["empirical study", "program bug"
         ]
     },
     {
         "title": "Testing DNN Image Classifier for Confusion & Bias Errors",
         "link": "https://arxiv.org/abs/1905.07831",
-        "authors": [ "Yuchi Tian", "Ziyuan Zhong", "Vicente Ordonez", "Gail Kaiser", "Baishakhi Ray"],
+        "authors": ["Yuchi Tian", "Ziyuan Zhong", "Vicente Ordonez", "Gail Kaiser", "Baishakhi Ray"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "tensorflow", "backend bug"
+        "tags": ["tensorflow", "backend bug"
         ]
     },
     {
         "title": "Towards Characterizing Adversarial Defects of Deep Learning Software from the Lens of Uncertainty",
         "link": "https://dl.acm.org/doi/10.1145/3377811.3380368",
-        "authors": [ "Xiyue Zhang", "Xiaofei Xie", "Lei Ma", "Xiaoning Du", "Qiang Hu", "Yang Liu", "Jianjun Zhao", "Meng Sun"],
+        "authors": ["Xiyue Zhang", "Xiaofei Xie", "Lei Ma", "Xiaoning Du", "Qiang Hu", "Yang Liu", "Jianjun Zhao", "Meng Sun"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "adversarial", "certainty"
+        "tags": ["adversarial", "certainty"
         ]
     },
     {
         "title": "Understanding the Automated Parameter Optimization on Transfer Learning for Cross-Project Defect Prediction: An Empirical Study",
         "link": "http://taochen.github.io/publications/papers/camera-ready.pdf",
-        "authors": [ "Ke Li", "Zilin Xiang", "Tao Chen", "Shuo Wang", "Kay Chen Tan"],
+        "authors": ["Ke Li", "Zilin Xiang", "Tao Chen", "Shuo Wang", "Kay Chen Tan"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "learning optimization", "empirical study"
+        "tags": ["learning optimization", "empirical study"
         ]
     },
     {
         "title": "White-box Fairness Testing through Adversarial Sampling",
         "link": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5635&context=sis_research",
-        "authors": [ "Peixin Zhang", "Jingyi Wang", "Jun Sun", "Guoliang Dong", "Xinyu Wang", "Xingen Wang", "Jin Song Dong", "Dai Ting"],
+        "authors": ["Peixin Zhang", "Jingyi Wang", "Jun Sun", "Guoliang Dong", "Xinyu Wang", "Xingen Wang", "Jin Song Dong", "Dai Ting"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "testing", "fairness"
+        "tags": ["testing", "fairness"
         ]
     },
     {
         "title": "TRADER: Trace Divergence Analysis and Embedding Regulation for Debugging Recurrent Neural Networks",
         "link": "",
-        "authors": [ "Guanhong Tao", "Shiqing Ma", "Yingqi Liu", "Qiuling Xu", "Xiangyu Zhang"],
+        "authors": ["Guanhong Tao", "Shiqing Ma", "Yingqi Liu", "Qiuling Xu", "Xiangyu Zhang"],
         "venue": "ICSE",
         "year": "2020",
-        "tags": [ "RNN"
+        "tags": ["RNN"
         ]
     },
     {
         "title": "NIC: Detecting Adversarial Samples with Neural Network Invariant Checking",
         "link": "https://www.cs.rutgers.edu/~sm2283/papers/NDSS19.pdf",
-        "authors": [ "Shiqing Ma", "Yingqi Liu", "Guanhong Tao", "Wen-Chuan Lee", "Xiangyu Zhang"],
+        "authors": ["Shiqing Ma", "Yingqi Liu", "Guanhong Tao", "Wen-Chuan Lee", "Xiangyu Zhang"],
         "venue": "NDSS",
         "year": "2019",
-        "tags": [ "adversarial"
+        "tags": ["adversarial"
         ]
     },
     {
         "title": "Attacks Meet Interpretability: Attribute-steered Detection of Adversarial Samples",
         "link": "https://www.cs.rutgers.edu/~sm2283/papers/NeurIPS18.pdf",
-        "authors": [ "Guanhong Tao", "Shiqing Ma", "Yingqi Liu", "Xiangyu Zhang"],
+        "authors": ["Guanhong Tao", "Shiqing Ma", "Yingqi Liu", "Xiangyu Zhang"],
         "venue": "NeurIPS",
         "year": "2018",
-        "tags": [ "interpret"
+        "tags": ["interpret"
         ]
     },
     {
         "title": "MODE: Automated Neural Network Model Debugging via State Differential Analysis and Input Selection",
         "link": "https://www.cs.rutgers.edu/~sm2283/papers/FSE18.pdf",
-        "authors": [ "Shiqing Ma", "Yingqi Liu", "Wen-Chuan Lee", "Xiangyu Zhang", "Ananth Grama"],
+        "authors": ["Shiqing Ma", "Yingqi Liu", "Wen-Chuan Lee", "Xiangyu Zhang", "Ananth Grama"],
         "venue": "ESEC/FSE",
         "year": "2018",
         "tags": ["debug"]
@@ -270,7 +270,7 @@ const paper_list = [
     {
         "title": "Trojaning Attack on Neural Networks",
         "link": "https://www.cs.rutgers.edu/~sm2283/papers/NDSS18.TNN.pdf",
-        "authors": [ "Yingqi Liu", "Shiqing Ma", "Yousra Aafer", "Wen-Chuan Lee", "Juan Zhai", "Weihang Wang", "Xiangyu Zhang"],
+        "authors": ["Yingqi Liu", "Shiqing Ma", "Yousra Aafer", "Wen-Chuan Lee", "Juan Zhai", "Weihang Wang", "Xiangyu Zhang"],
         "venue": "NDSS",
         "year": "2018",
         "tags": ["attack"]
@@ -278,7 +278,7 @@ const paper_list = [
     {
         "title": "LAMP: Data Provenance for Graph Based Machine Learning Algorithms Through Derivative Computation",
         "link": "https://www.cs.rutgers.edu/~sm2283/papers/FSE17.pdf",
-        "authors": [ "Shiqing Ma", "Yousra Aafer", "Zhaogui Xu", "Wen-Chuan Lee", "Juan Zhai", "Yingqi Liu", "Xiangyu Zhang"],
+        "authors": ["Shiqing Ma", "Yousra Aafer", "Zhaogui Xu", "Wen-Chuan Lee", "Juan Zhai", "Yingqi Liu", "Xiangyu Zhang"],
         "venue": "ESEC/FSE",
         "year": "2017",
         "tags": ["provenance"]
@@ -286,7 +286,7 @@ const paper_list = [
     {
         "title": "DeepTest: automated testing of deep-neural-network-driven autonomous cars.",
         "link": "DOI:https://doi.org/10.1145/3180155.3180220",
-        "authors": [ "Yuchi Tian", "Kexin Pei", "Suman Jana", "and Baishakhi Ray"],
+        "authors": ["Yuchi Tian", "Kexin Pei", "Suman Jana", "and Baishakhi Ray"],
         "venue": "ICSE",
         "year": "2018",
         "tags": ["testing", "metamorphic testing"]
@@ -294,7 +294,7 @@ const paper_list = [
     {
         "title": "DeepXplore: Automated Whitebox Testing of Deep Learning Systems",
         "link": "https://doi.org/10.1145/3132747.3132785",
-        "authors": [ "Kexin Pei", "Yinzhi Cao", "Junfeng Yang", "and Suman Jana"],
+        "authors": ["Kexin Pei", "Yinzhi Cao", "Junfeng Yang", "and Suman Jana"],
         "venue": "SOSP",
         "year": "2017",
         "tags": ["testing", "differential testing"]
@@ -302,7 +302,7 @@ const paper_list = [
     {
         "title": "DeepGauge: multi-granularity testing criteria for deep learning systems",
         "link": "https://doi.org/10.1145/3238147.3238202",
-        "authors": [ "Lei Ma", "Felix Juefei-Xu", "Fuyuan Zhang", "Jiyuan Sun", "Minhui Xue", "Bo Li", "Chunyang Chen", "Ting Su", "Li Li", "Yang Liu", "Jianjun Zhao", "and Yadong Wang"],
+        "authors": ["Lei Ma", "Felix Juefei-Xu", "Fuyuan Zhang", "Jiyuan Sun", "Minhui Xue", "Bo Li", "Chunyang Chen", "Ting Su", "Li Li", "Yang Liu", "Jianjun Zhao", "and Yadong Wang"],
         "venue": "ASE",
         "year": "2018",
         "tags": ["testing", "oracle"]
@@ -310,7 +310,7 @@ const paper_list = [
     {
         "title": "DeepMutation: Mutation Testing of Deep Learning Systems",
         "link": "https://kyushu-u.pure.elsevier.com/en/publications/deepmutation-mutation-testing-of-deep-learning-systems",
-        "authors": [ "Lei Ma", "Fuyuan Zhang", "Jiyuan Sun", "Minhui Xue", "Bo Li", "Felix Juefei-Xu", "Chao Xie", "Li Li", "Yang Liu", "Jianjun Zhao", "Yadong Wang"],
+        "authors": ["Lei Ma", "Fuyuan Zhang", "Jiyuan Sun", "Minhui Xue", "Bo Li", "Felix Juefei-Xu", "Chao Xie", "Li Li", "Yang Liu", "Jianjun Zhao", "Yadong Wang"],
         "venue": "ISSRE",
         "year": "2018",
         "tags": ["mutation", "testing"]
@@ -318,7 +318,7 @@ const paper_list = [
     {
         "title": "TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing",
         "link": "http://proceedings.mlr.press/v97/odena19a/odena19a.pdf",
-        "authors": [ "Augustus Odena", "Catherine Olsson", "David G. Andersen", "Ian Goodfellow"],
+        "authors": ["Augustus Odena", "Catherine Olsson", "David G. Andersen", "Ian Goodfellow"],
         "venue": "ICML",
         "year": "2019",
         "tags": ["fuzz", "testing"]
@@ -326,7 +326,7 @@ const paper_list = [
     {
         "title": "DeepHunter: A Coverage-Guided Fuzz Testing Framework for Deep Neural Networks",
         "link": "http://xujuefei.com/felix_issta19_deephunter.pdf",
-        "authors": [ "Xiaofei Xie", "Lei Ma", "Felix Juefei-Xu", "Minhui Xue", "Hongxu Chen", "Yang Liu", "Jianjun Zhao", "Bo Li", "Jianxiong Yin", "and Simon See"],
+        "authors": ["Xiaofei Xie", "Lei Ma", "Felix Juefei-Xu", "Minhui Xue", "Hongxu Chen", "Yang Liu", "Jianjun Zhao", "Bo Li", "Jianxiong Yin", "and Simon See"],
         "venue": "ISSTA",
         "year": "2019",
         "tags": ["fuzz"]
@@ -334,7 +334,7 @@ const paper_list = [
     {
         "title": "A comprehensive study on deep learning bug characteristics",
         "link": "https://dl.acm.org/doi/10.1145/3338906.3338955",
-        "authors": [ "Md Johirul Islam", "Giang Nguyen", "Rangeet Pan", "Hridesh Rajan"],
+        "authors": ["Md Johirul Islam", "Giang Nguyen", "Rangeet Pan", "Hridesh Rajan"],
         "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["bug", "empirical study"]
@@ -342,7 +342,7 @@ const paper_list = [
     {
         "title": "DLFuzz: Differential Fuzzing Testing of Deep Learning Systems",
         "link": "https://arxiv.org/pdf/1808.09413.pdf",
-        "authors": [ "Jianmin Guo", "Yu Jiang", "Yue Zhao", "Quan Chen", "Jiaguang Sun"],
+        "authors": ["Jianmin Guo", "Yu Jiang", "Yue Zhao", "Quan Chen", "Jiaguang Sun"],
         "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["testing", "fuzz"]
@@ -350,7 +350,7 @@ const paper_list = [
     {
         "title": "DeepStellar: model-based quantitative analysis of stateful deep learning systems",
         "link": "https://dl.acm.org/doi/10.1145/3338906.3338954",
-        "authors": [ "Xiaoning Du", "Xiaofei Xie", "Yi Li", "Lei Ma", "Yang Liu", "Jianzhu Zhao"],
+        "authors": ["Xiaoning Du", "Xiaofei Xie", "Yi Li", "Lei Ma", "Yang Liu", "Jianzhu Zhao"],
         "venue": "ESEC/FSE",
         "year": "2019",
         "tags": ["RNN", "analysis"]
@@ -358,7 +358,7 @@ const paper_list = [
     {
         "title": "Automated Repair of Feature Interaction Failures in Automated Driving Systems",
         "link": "https://orbilu.uni.lu/bitstream/10993/43281/1/paper.pdf",
-        "authors": [ "Raja Ben Abdessalem", "Annibale Panichella", "Shiva Nejati", "Lionel C. Briand", "Thomas Stifter"],
+        "authors": ["Raja Ben Abdessalem", "Annibale Panichella", "Shiva Nejati", "Lionel C. Briand", "Thomas Stifter"],
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["repair", "driving"]
@@ -366,7 +366,7 @@ const paper_list = [
     {
         "title": "CoCoNuT: Combining Context-Aware Neural Translation Models using Ensemble for Program Repair",
         "link": "https://www.cs.purdue.edu/homes/lintan/publications/coconut-issta20.pdf",
-        "authors": [ "Thibaud Lutellier", "Viet Hung Pham", "Lawrence Pang", "Yitong Li", "Moshi Wei", "Lin Tan"],
+        "authors": ["Thibaud Lutellier", "Viet Hung Pham", "Lawrence Pang", "Yitong Li", "Moshi Wei", "Lin Tan"],
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["translation"]
@@ -374,7 +374,7 @@ const paper_list = [
     {
         "title": "DeepGini: Prioritizing Massive Tests to Enhance the Robustness of Deep Neuron Networks",
         "link": "https://www.cs.purdue.edu/homes/lintan/publications/coconut-issta20.pdf",
-        "authors": [ "Yang Feng", "Qingkai Shi", "Xinyu Gao", "Muhammed Kerem Kahraman", "Chunrong Fang", "Zhenyu Chen"],
+        "authors": ["Yang Feng", "Qingkai Shi", "Xinyu Gao", "Muhammed Kerem Kahraman", "Chunrong Fang", "Zhenyu Chen"],
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["robustness"]
@@ -382,7 +382,7 @@ const paper_list = [
     {
         "title": "Detecting and Understanding Real-World Differential Performance Bugs in Machine Learning Libraries",
         "link": "https://arxiv.org/abs/2006.01991",
-        "authors": [ "Yang Feng", "Qingkai Shi", "Xinyu Gao", "Muhammed Kerem Kahraman", "Chunrong Fang", "Zhenyu Chen"],
+        "authors": ["Yang Feng", "Qingkai Shi", "Xinyu Gao", "Muhammed Kerem Kahraman", "Chunrong Fang", "Zhenyu Chen"],
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["library"]
@@ -390,7 +390,7 @@ const paper_list = [
     {
         "title": "Effective White-box Testing of Deep Neural Networks with Adaptive Neuron-Selection Strategy",
         "link": "http://prl.korea.ac.kr/~pronto/home/papers/issta20.pdf",
-        "authors": [ "Seokhyun Lee", "Sooyoung Cha", "Dain Lee", "Hakjoo Oh"],
+        "authors": ["Seokhyun Lee", "Sooyoung Cha", "Dain Lee", "Hakjoo Oh"],
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["testing"]
@@ -398,7 +398,7 @@ const paper_list = [
     {
         "title": "Higher Income, Larger Loan? Monotonicity Testing of Machine Learning Models",
         "link": "https://arxiv.org/pdf/2002.12278.pdf",
-        "authors": [ "Arnab Sharma", "Heike Wehrheim"],
+        "authors": ["Arnab Sharma", "Heike Wehrheim"],
         "venue": "ISSTA",
         "year": "2020",
         "tags": ["testing"]
@@ -647,7 +647,7 @@ const paper_list = [
     {
         "title": "A First Look at the Integration of Machine Learning Models in Complex Autonomous Driving Systems: A Case Study on Apollo",
         "link": "https://dl.acm.org/doi/abs/10.1145/3368089.3417063",
-        "authors": ["Zi Peng", "Jinqiu Yang", "Tse-Hsun (Peter) Chen","Lei Ma"],
+        "authors": ["Zi Peng", "Jinqiu Yang", "Tse-Hsun (Peter) Chen", "Lei Ma"],
         "venue": "ESEC/FSE",
         "year": "2020",
         "tags": ["integration system"]
@@ -655,11 +655,170 @@ const paper_list = [
     {
         "title": "Identifying Implementation Bugs in Machine Learning Based Image Classifiers Using Metamorphic Testing",
         "link": "https://dl.acm.org/doi/abs/10.1145/3368089.3417063",
-        "authors": ["Anurag Dwarakanath", "Manish Ahuja", "Samarth Sikand", "Raghotham M. Rao", 
-        "R. P. Jagadeesh Chandra Bose", "Neville Dubash", "Sanjay Podder"],
+        "authors": ["Anurag Dwarakanath", "Manish Ahuja", "Samarth Sikand", "Raghotham M. Rao",
+            "R. P. Jagadeesh Chandra Bose", "Neville Dubash", "Sanjay Podder"],
         "venue": "ISSTA",
         "year": "2018",
         "tags": ["metamorphic", "program"]
+    },
+    {
+        "title": "AUTOTRAINER: An Automatic DNN Training Problem Detection and Repair System",
+        "link": "None",
+        "authors": ["Xiaoyu Zhang", "Juan Zhai", "Shiqing Ma", "Chao Shen"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["repair", "training"]
+    },
+    {
+        "title": "An Empirical Study on Deployment Faults of Deep Learning Based Mobile Applications",
+        "link": "None",
+        "authors": ["Zhenpeng Chen", "Huihan Yao", "Yiling Lou", "Yanbin Cao", "Yuanqiang Liu", "Haoyu Wang", "Xuanzhe Liu"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["empircal", "deployment", "mobile"]
+    },
+    {
+        "title": "Are Machine Learning Cloud APIs Used Correctly?",
+        "link": "None",
+        "authors": ["Chengcheng Wan", "Shicheng Liu", "Hank Hoffman", "Michael Maire", "Shan Lu"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["API"]
+    },
+    {
+        "title": "Automatic Unit Test Generation for Machine Learning Libraries: How Far Are We?",
+        "link": "None",
+        "authors": ["Song Wang", "Nishtha Shrestha", "Abarna Kucheri Subburaman", "Junjie Wang", "Moshi Wei", "Nachiappan Nagappan"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["library"]
+    },
+    {
+        "title": "DeepBackdoor: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection",
+        "link": "None",
+        "authors": ["Yuanchun Li", "Jiayi Hua", "Haoyu Wang", "Chunyang Chen", "Yunxin Liu"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["backdoor"]
+    },
+    {
+        "title": "DeepLocalize: Fault Localization for Deep Neural Networks",
+        "link": "None",
+        "authors": ["Mohammad Wardat", "Wei Le", "Hridesh Rajan"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["fault localization"]
+    },
+    {
+        "title": "Distribution-Aware Testing of Neural Networks Using Generative Models",
+        "link": "None",
+        "authors": ["Swaroopa Dola", "Matthew Dwyer", "Mary Lou Soffa"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["testing"]
+    },
+    {
+        "title": "Enabling Software Resilience in GPGPU Applications via Partial Thread Protection",
+        "link": "None",
+        "authors": ["Lishan Yang", "Bin Nie", "Adwait Jog", "Evgenia Smirni"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": []
+    },
+    {
+        "title": "Graph-based Fuzz Testing for Deep Learning Inference Engines",
+        "link": "None",
+        "authors": ["Weisi Luo", "Xiaoyue Run", "Dong Chai", "Jiang Wang", "Chunrong Fang", "Zhenyu Chen"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["fuzz", "platform"]
+    },
+    {
+        "title": "IoT Bugs and Development Challenges",
+        "link": "None",
+        "authors": ["Amirhossein Abbasi Makhshari", "Ali Mesbah"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["IoT"]
+    },
+    {
+        "title": "Measuring Discrimination to Boost Comparative Testing for Multiple Deep Learning Models",
+        "link": "None",
+        "authors": ["Linghan Meng", "Yanhui Li", "Lin Chen", "Zhi Wang", "Di Wu", "Yuming Zhou", "Baowen Xu"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["Discrimination"]
+    },
+    {
+        "title": "Operation is the hardest teacher: estimating DNN accuracy looking for mispredictions",
+        "link": "None",
+        "authors": ["Roberto Pietrantuono", "Stefano Russo", "Antonio Guerriero"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["accuracy estimation"]
+    },
+    {
+        "title": "Prioritizing Test Inputs for Deep Neural Networks via Mutation Analysis",
+        "link": "None",
+        "authors": ["Zan Wang", "Hanmo You", "Junjie Chen", "Yingyi Zhang", "Xuyuan Dong", "Wenbin Zhang"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["input prioritization"]
+    },
+    {
+        "title": "Reducing DNN Properties to Enable Falsification with Adversarial Attacks",
+        "link": "None",
+        "authors": ["David Shriver", "Sebastian Elbaum", "Matthew Dwyer"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["adversarial attack"]
+    },
+    {
+        "title": "Restoring Execution Environments of Jupyter Notebooks",
+        "link": "None",
+        "authors": ["Jiawei Wang", "Li Li", "Andreas Zeller"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["jupyter"]
+    },
+    {
+        "title": "Scalable Quantitative Verification For Deep Neural Networks",
+        "link": "None",
+        "authors": ["Teodora Baluta", "Zheng Leong Chua", "Kuldeep S. Meel", "Prateek Saxena  "],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["verification"]
+    },
+    {
+        "title": "Testing Machine Translation via Referential Transparency",
+        "link": "None",
+        "authors": ["Pinjia He", "Clara Meister", "Zhendong Su"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["translation"]
+    },
+    {
+        "title": "White-Box Analysis over Machine Learning: Modeling Performance of Configurable Systems",
+        "link": "None",
+        "authors": ["Miguel Velez", "Pooyan Jamshidi", "Norbert Siegmund", "Sven Apel", "Christian Kästner"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["analysis"]
+    },
+    {
+        "title": "Self-Checking Deep Neural Networks in Deployment",
+        "link": "None",
+        "authors": ["Yan Xiao", "Ivan Beschastnikh", "David S. Rosenblum", "Changsheng Sun", "Sebastian Elbaum", "Yun Lin", "Jin Song Dong"],
+        "venue": "ICSE",
+        "year": "2021",
+        "tags": ["deployment"]
+    },
+    {
+        "title": "Practical Accuracy Estimation for Efficient Deep Neural Network Testing",
+        "link": "https://drive.google.com/file/d/1YJAFXYjU_FglQyN4xs_kPdzwWU8bh5Ta/view",
+        "authors": "Junjie Chen, Zhuo Wu, Zan Wang, Hanmo You, Lingming Zhang, Ming Yan",
+        "venue": "TOSEM",
+        "year": "2020",
+        "tags": ["accuracy estimation"]
     }
-
 ]
