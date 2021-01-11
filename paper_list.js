@@ -816,9 +816,17 @@ const paper_list = [
     {
         "title": "Practical Accuracy Estimation for Efficient Deep Neural Network Testing",
         "link": "https://drive.google.com/file/d/1YJAFXYjU_FglQyN4xs_kPdzwWU8bh5Ta/view",
-        "authors": ["Junjie Chen, Zhuo Wu, Zan Wang, Hanmo You, Lingming Zhang, Ming Yan"],
+        "authors": ["Junjie Chen", "Zhuo Wu", "Zan Wang", "Hanmo You", "Lingming Zhang", "Ming Yan"],
         "venue": "TOSEM",
         "year": "2020",
         "tags": ["accuracy estimation"]
+    },
+    {
+        "title": "Test Selection for Deep Learning Systems",
+        "link": "https://dl.acm.org/doi/pdf/10.1145/3417330",
+        "authors": ["Wei Ma", "Mike Papadakis","Anestis Tsakmalis", "Maxime Cordy", "Yves Le Traon"],
+        "venue": "TOSEM",
+        "year": "2020",
+        "tags": ["test selection"]
     }
 ]
