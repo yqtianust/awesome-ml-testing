@@ -675,7 +675,7 @@ const paper_list = [
         "authors": ["Zhenpeng Chen", "Huihan Yao", "Yiling Lou", "Yanbin Cao", "Yuanqiang Liu", "Haoyu Wang", "Xuanzhe Liu"],
         "venue": "ICSE",
         "year": "2021",
-        "tags": ["empircal", "deployment", "mobile"]
+        "tags": ["empirical study", "deployment", "mobile"]
     },
     {
         "title": "Are Machine Learning Cloud APIs Used Correctly?",
