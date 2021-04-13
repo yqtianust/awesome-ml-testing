@@ -828,5 +828,13 @@ const paper_list = [
         "venue": "TOSEM",
         "year": "2020",
         "tags": ["test selection"]
+    },
+    {
+        "title": "Detecting numerical bugs in neural network architectures",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3368089.3409720",
+        "authors": ["Yuhao Zhang", "Luyao Ren", "Liqian Chen", "Yingfei Xiong", "Shing-chi Cheung"],
+        "venue": "ISSTA",
+        "year": "2018",
+        "tags": ["empirical study"]
     }
 ]
