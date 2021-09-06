@@ -57,6 +57,7 @@ For paper:
    * TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing: https://www.textflint.io/ 
    * PRODeep: a platform for robustness verification of deep neural networks https://iscasmc.ios.ac.cn/prodeep/doku.php
    * Captum: Model interpretability and understanding for PyTorch, https://github.com/pytorch/captum
+   * CompressAI: PyTorch library and evaluation platform for end-to-end compression research, https://github.com/InterDigitalInc/CompressAI
  
 
 <a name="datasets"></a>
