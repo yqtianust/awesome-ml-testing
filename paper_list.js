@@ -836,5 +836,69 @@ const paper_list = [
         "venue": "ISSTA",
         "year": "2018",
         "tags": ["empirical study"]
+    },
+    {
+        "title": "AdvDoor: Adversarial Backdoor Attack of Deep Learning System",
+        "link": "https://doi.org/10.1145/3460319.3464809",
+        "authors": ["Quan Zhang", "Yifeng Ding", "Yongqiang Tian", "Jianmin Guo", "Min Yuan", "Yu Jiang"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["backdoor"]
+    },
+    {
+        "title": "Attack as Defense: Characterizing Adversarial Examples using Robustness",
+        "link": "https://doi.org/10.1145/3460319.3464822",
+        "authors": ["Zhe Zhao", "Guangke Chen", "Jingyi Wang", "Yiwei Yang", "Fu Song", "Jun Sun"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["empirical study"]
+    },
+    {
+        "title": "Attack as Defense: Characterizing Adversarial Examples using Robustness",
+        "link": "https://doi.org/10.1145/3460319.3464822",
+        "authors": ["Zhe Zhao", "Guangke Chen", "Jingyi Wang", "Yiwei Yang", "Fu Song", "Jun Sun"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["empirical study", "defense"]
+    },
+    {
+        "title": "Automatic Test Suite Generation for Key-Points Detection DNNs using Many-Objective Search (Experience Paper)",
+        "link": "https://doi.org/10.1145/3460319.3464802",
+        "authors": ["Fitash Ul Haq", "Donghwan Shin", "Lionel Briand", "Thomas Stifter", "Jun Wang"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["test generation", "key-point"]
+    },
+    {
+        "title": "DeepCrime: Mutation Testing of Deep Learning Systems Based on Real Faults",
+        "link": "https://doi.org/10.1145/3460319.3464825",
+        "authors": ["Nargiz Humbatova", "Gunel Jahangirova", "Paolo Tonella"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["mutation testing", "DL system"]
+    },
+    {
+        "title": "DeepHyperion: exploring the feature space of deep learning-based systems through illumination search",
+        "link": "https://dl.acm.org/doi/10.1145/3460319.3464811",
+        "authors": ["Tahereh Zohdinasab", "Vincenzo Riccio", "Alessio Gambi", "Paolo Tonella"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["testing"]
+    },
+    {
+        "title": "DialTest: Automated Testing for Recurrent-Neural-Network-Driven Dialogue Systems",
+        "link": "https://doi.org/10.1145/3460319.3464829",
+        "authors": ["Zixi Liu", "Yang Feng", "Zhenyu Chen"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["test generation", "dialogue"]
+    },
+    {
+        "title": "Efficient White - Box Fairness Testing through Gradient Search",
+        "link": "https://doi.org/10.1145/3460319.3464820",
+        "authors": ["Lingfeng Zhang", "Yueling Zhang", "Min Zhang"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["fairness"]
     }
 ]
