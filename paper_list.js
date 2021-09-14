@@ -894,11 +894,22 @@ const paper_list = [
         "tags": ["test generation", "dialogue"]
     },
     {
-        "title": "Efficient White - Box Fairness Testing through Gradient Search",
+        "title": "Efficient White-Box Fairness Testing through Gradient Search",
         "link": "https://doi.org/10.1145/3460319.3464820",
         "authors": ["Lingfeng Zhang", "Yueling Zhang", "Min Zhang"],
         "venue": "ISSTA",
         "year": "2021",
         "tags": ["fairness"]
+    },
+    {
+        "title": "Exposing Previously Undetectable Faults in Deep Neural Networks",
+        "link": "https://doi.org/10.1145/3460319.3464801",
+        "authors": ["Isaac Dunn", "Hadrien Pouget", "Daniel Kroening", "Tom Melham"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["test generation"]
     }
+
+    
+
 ]
