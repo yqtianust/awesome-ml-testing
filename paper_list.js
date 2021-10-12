@@ -908,7 +908,23 @@ const paper_list = [
         "venue": "ISSTA",
         "year": "2021",
         "tags": ["test generation"]
-    }
+    },
+    {
+        "title": "Predoo: Precision Testing of Deep Learning Operators",
+        "link": "https://doi.org/10.1145/3460319.3464843",
+        "authors": ["Xufan Zhang", "Ning Sun", "Chunrong Fang", "Jiawei Liu", "Jia Liu", "Dong Chai", "Jiang Wang", "Zhenyu Chen"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["test generation","precision"]
+    },
+    {
+        "title": "TERA: Optimizing Stochastic Regression Tests in Machine Learning Projects",
+        "link": "https://doi.org/10.1145/3460319.3464844",
+        "authors": ["Saikat Dutta", "Jeeva Selvam", "Aryaman Jain", "Sasa Misailovic"],
+        "venue": "ISSTA",
+        "year": "2021",
+        "tags": ["regression"]
+    },
 
     
 
